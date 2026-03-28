@@ -44,7 +44,21 @@ def show_host_view():
             
             if game_state.get("game_over"):
                 st.success("🎉 O Jogo Finalizou Definitivamente!")
-                st.info("A Planilha Geral está pronta para download. Para dar aula para uma turma diferente com as mesmas perguntas do dia, você pode zerar a sala.")
+                st.info("A Planilha Geral com todos os resultados da turma está pronta! Clique abaixo para salvar no seu computador.")
+                
+                lb_final = get_leaderboard()
+                if not lb_final.empty:
+                    csv_final = lb_final.to_csv(index=False).encode('utf-8')
+                    st.download_button(
+                        label="📥 BAIXAR PLANILHA GERAL AGORA",
+                        data=csv_final,
+                        file_name=f"Planilha_Geral_Notas_Final.csv",
+                        mime="text/csv",
+                        use_container_width=True
+                    )
+
+                st.markdown("---")
+                st.warning("Para dar aula para uma turma diferente com as mesmas perguntas do dia, você pode zerar a sala.")
                 if st.button("🔄 Zerar Tudo e Começar Nova Turma", type="primary"):
                     from database import reset_room
                     reset_room()
