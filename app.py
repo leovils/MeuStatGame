@@ -21,7 +21,18 @@ def main():
     if role == "Aluno (Responder Quiz)":
         show_student_view()
     else:
-        show_host_view()
+        senha = st.sidebar.text_input("🔒 Senha do Professor:", type="password")
+        # Tenta buscar a senha nos secrets, senao default eh 1234
+        import config
+        senha_correta = config.get_secret("host_password")
+        if not senha_correta: senha_correta = "1234" # fallback
+        
+        if senha == senha_correta:
+            show_host_view()
+        elif senha != "":
+            st.error("❌ Senha incorreta! Acesso negado.")
+        else:
+            st.warning("⚠️ Por favor, insira a senha do professor na barra lateral esquerda para acessar o painel de controle.")
 
 if __name__ == "__main__":
     main()
