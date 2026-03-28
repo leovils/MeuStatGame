@@ -44,6 +44,11 @@ def show_host_view():
             
             if game_state.get("game_over"):
                 st.success("🎉 O Jogo Finalizou Definitivamente!")
+                if "email_msg" in st.session_state:
+                    if "❌" in st.session_state["email_msg"]:
+                        st.error(st.session_state["email_msg"])
+                    else:
+                        st.success(st.session_state["email_msg"])
                 st.info("A Planilha Geral com todos os resultados da turma está pronta! Clique abaixo para salvar no seu computador.")
                 
                 from gerar_relatorio import generate_report
@@ -90,6 +95,7 @@ def show_host_view():
                         try:
                             from database import _load_db
                             from email_service import broadcast_emails
+                            import time
                             db = _load_db()
                             lb = get_leaderboard()
                             qs_all = []
@@ -98,9 +104,9 @@ def show_host_view():
                             except:
                                 pass
                             sent = broadcast_emails(lb, db, qs_all)
-                            st.success(f"Jogo encerrado! Foram disparados {sent} e-mails para a turma.")
+                            st.session_state['email_msg'] = f"✅ Jogo encerrado! O motor de e-mail tentou processar {sent} envios."
                         except Exception as e:
-                            st.error(f"Erro Crítico ao enviar e-mails: {str(e)}")
+                            st.session_state['email_msg'] = f"❌ Erro Crítico do Python ao enviar E-mails: {str(e)}"
                         update_game_state({"game_over": True})
                         st.rerun()
                     return
