@@ -46,13 +46,13 @@ def show_host_view():
                 st.success("🎉 O Jogo Finalizou Definitivamente!")
                 st.info("A Planilha Geral com todos os resultados da turma está pronta! Clique abaixo para salvar no seu computador.")
                 
-                lb_final = get_leaderboard()
-                if not lb_final.empty:
-                    csv_final = lb_final.to_csv(index=False).encode('utf-8')
+                from gerar_relatorio import generate_report
+                csv_final = generate_report()
+                if csv_final:
                     st.download_button(
-                        label="📥 BAIXAR PLANILHA GERAL AGORA",
+                        label="📥 BAIXAR O RELATÓRIO OFICIAL COMPLETO (EXCEL)",
                         data=csv_final,
-                        file_name=f"Planilha_Geral_Notas_Final.csv",
+                        file_name=f"Relatorio_Final_Quiz.csv",
                         mime="text/csv",
                         use_container_width=True
                     )
