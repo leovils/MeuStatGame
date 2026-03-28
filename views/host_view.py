@@ -97,8 +97,8 @@ def show_host_view():
                                 qs_all = json.load(open('questions.json', 'r', encoding='utf-8'))
                             except:
                                 pass
-                            sent = broadcast_emails(lb, db["students"], qs_all)
-                            st.success(f"Jogo encerrado! Tentativa de enviar {sent} e-mails.")
+                            sent = broadcast_emails(lb, db, qs_all)
+                            st.success(f"Jogo encerrado! Foram disparados {sent} e-mails para a turma.")
                         except Exception as e:
                             st.error(f"Erro Crítico ao enviar e-mails: {str(e)}")
                         update_game_state({"game_over": True})
