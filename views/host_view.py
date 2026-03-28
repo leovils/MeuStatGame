@@ -92,10 +92,15 @@ def show_host_view():
                             from email_service import broadcast_emails
                             db = _load_db()
                             lb = get_leaderboard()
-                            sent = broadcast_emails(lb, db["students"])
+                            qs_all = []
+                            try:
+                                qs_all = json.load(open('questions.json', 'r', encoding='utf-8'))
+                            except:
+                                pass
+                            sent = broadcast_emails(lb, db["students"], qs_all)
                             st.success(f"Jogo encerrado! Tentativa de enviar {sent} e-mails.")
                         except Exception as e:
-                            st.error("Jogo encerrado (E-mails não configurados).")
+                            st.error(f"Erro Crítico ao enviar e-mails: {str(e)}")
                         update_game_state({"game_over": True})
                         st.rerun()
                     return
