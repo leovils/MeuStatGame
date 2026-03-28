@@ -1,14 +1,11 @@
 import os
-import re
+import streamlit as st
 
 def get_secret(key):
     try:
-        with open(".streamlit/secrets.toml", "r", encoding="utf-8") as f:
-            content = f.read()
-            # Support both double quotes and single quotes
-            match = re.search(rf'{key}\s*=\s*["\']([^"\']+)["\']', content)
-            if match:
-                return match.group(1)
+        # Na nuvem, o Streamlit gerencia os segredos autonomamente por aqui
+        if key in st.secrets:
+            return st.secrets[key]
     except:
         pass
     return os.getenv(key, "")
