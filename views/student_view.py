@@ -38,6 +38,10 @@ def show_student_view():
     
     game_state = get_game_state()
     
+    if game_state.get("game_over"):
+        st.success("🎉 O Jogo terminou! Muito obrigado por participar! Olhe o seu e-mail para ver todas as correções que preparamos para você.")
+        return
+        
     if not game_state.get("is_active"):
         st.info("Aguardando o professor iniciar a rodada...")
         return

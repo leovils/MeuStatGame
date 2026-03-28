@@ -26,12 +26,31 @@ def show_host_view():
             lb = get_leaderboard()
             if not lb.empty:
                 st.dataframe(lb, hide_index=True, use_container_width=True)
+                
+                # Botão para baixar a planilha diretamente do Streamlit
+                csv = lb.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="📥 Baixar Planilha Geral",
+                    data=csv,
+                    file_name=f"Planilha_Geral_Notas.csv",
+                    mime="text/csv",
+                    use_container_width=True
+                )
             else:
                 st.write("Nenhum aluno registrado ainda.")
                 
         with col1:
             st.subheader("Controle do Jogo")
             
+            if game_state.get("game_over"):
+                st.success("🎉 O Jogo Finalizou Definitivamente!")
+                st.info("A Planilha Geral está pronta para download. Para dar aula para uma turma diferente com as mesmas perguntas do dia, você pode zerar a sala.")
+                if st.button("🔄 Zerar Tudo e Começar Nova Turma", type="primary"):
+                    from database import reset_room
+                    reset_room()
+                    st.rerun()
+                return
+
             if not game_state.get("is_active"):
                 st.write("O jogo está pausado ou não foi iniciado.")
                 if st.button("▶️ Iniciar Rodada 1", type="primary"):
@@ -53,8 +72,7 @@ def show_host_view():
                 
                 if idx >= len(qs):
                     st.success("🏁 Rodada finalizada!")
-                    if st.button("⏹️ Encerrar Jogo e Enviar E-mails"):
-                        update_game_state({"is_active": False})
+                    if st.button("⏹️ Encerrar Jogo Definitivamente", type="primary"):
                         try:
                             from database import _load_db
                             from email_service import broadcast_emails
@@ -64,6 +82,7 @@ def show_host_view():
                             st.success(f"Jogo encerrado! Tentativa de enviar {sent} e-mails.")
                         except Exception as e:
                             st.error("Jogo encerrado (E-mails não configurados).")
+                        update_game_state({"game_over": True})
                         st.rerun()
                     return
                     
