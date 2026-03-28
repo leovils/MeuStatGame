@@ -56,10 +56,16 @@ def get_leaderboard():
     db = _load_db()
     students = list(db["students"].values())
     if not students:
-        return pd.DataFrame(columns=["Nickname", "Pontuação"])
+        return pd.DataFrame(columns=["Nickname", "Nome", "E-mail", "Programa", "Pontuação"])
     
     df = pd.DataFrame(students)
-    df = df[["nickname", "score"]].rename(columns={"nickname": "Nickname", "score": "Pontuação"})
+    df = df[["nickname", "name", "email", "course", "score"]].rename(columns={
+        "nickname": "Nickname", 
+        "name": "Nome", 
+        "email": "E-mail", 
+        "course": "Programa", 
+        "score": "Pontuação"
+    })
     df = df.sort_values(by="Pontuação", ascending=False).reset_index(drop=True)
     df.index += 1
     return df

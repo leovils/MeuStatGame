@@ -10,7 +10,8 @@ def send_summary_email(to_email, student_name, score, rank, total_students, deta
         sender_password = get_secret("smtp_password")
         
         if not sender_email or not sender_password:
-            print("Aviso: Credenciais de e-mail ausentes no secrets.toml. Email pulado.")
+            import streamlit as st
+            st.error("❌ ATENÇÃO: As credenciais 'smtp_email' e 'smtp_password' sumiram ou não estão configuradas corretamente nos secrets da Nuvem!")
             return False
             
         subject = f"📊 Seu Relatório Detalhado no Quiz de Estatística!"
@@ -46,6 +47,8 @@ Prof. Leo Vils
         server.sendmail(sender_email, to_email, text)
         server.quit()
         
+        import streamlit as st
+        st.toast(f"✅ O servidor do Gmail CONFIRMOU o pacote despachado para: {to_email}!")
         return True
     except Exception as e:
         import streamlit as st
