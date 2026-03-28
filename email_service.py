@@ -48,10 +48,12 @@ Prof. Leo Vils
         
         return True
     except Exception as e:
+        import streamlit as st
+        # Mostrar o erro brutal na tela para nós podermos debugar sem caçar os logs
+        st.error(f"Erro no EMAIL: {str(e)}")
         print(f"================ ERROR EMAIL ================")
         print(f"Erro ao tentar enviar e-mail para {to_email}.")
         print(f"Motivo: {e}")
-        print("DICA: O Google exige que você gere uma 'App Password' (Senha de Aplicativo) nas configs de segurança da sua conta, a sua senha normal do gmail não vai funcionar!")
         print("============================================")
         return False
         

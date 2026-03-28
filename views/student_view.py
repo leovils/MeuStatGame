@@ -34,6 +34,14 @@ def show_student_view():
     
     email = st.session_state.student_email
     student = get_student(email)
+    
+    if not student:
+        # O professor zerou a sala, então o aluno foi expulso/desregistrado do banco de dados
+        del st.session_state.student_email
+        st.warning("O Professor encerrou a sessão e limpou a sala! Por favor, registre-se novamente.")
+        st.rerun()
+        return
+        
     st.sidebar.success(f"🎮 Jogador: {student['nickname']} | 🏆 Pontos: {student['score']}")
     
     game_state = get_game_state()
