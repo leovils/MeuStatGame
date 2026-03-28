@@ -10,9 +10,7 @@ def send_summary_email(to_email, student_name, score, rank, total_students, deta
         sender_password = get_secret("smtp_password")
         
         if not sender_email or not sender_password:
-            import streamlit as st
-            st.error("❌ ATENÇÃO: As credenciais 'smtp_email' e 'smtp_password' sumiram ou não estão configuradas corretamente nos secrets da Nuvem!")
-            return False
+            raise ValueError("As credenciais 'smtp_email' e 'smtp_password' desapareceram. Você as colocou no secrets.toml do Streamlit?")
             
         subject = f"📊 Seu Relatório Detalhado no Quiz de Estatística!"
         
@@ -51,14 +49,7 @@ Prof. Leo Vils
         st.toast(f"✅ O servidor do Gmail CONFIRMOU o pacote despachado para: {to_email}!")
         return True
     except Exception as e:
-        import streamlit as st
-        # Mostrar o erro brutal na tela para nós podermos debugar sem caçar os logs
-        st.error(f"Erro no EMAIL: {str(e)}")
-        print(f"================ ERROR EMAIL ================")
-        print(f"Erro ao tentar enviar e-mail para {to_email}.")
-        print(f"Motivo: {e}")
-        print("============================================")
-        return False
+        raise Exception(f"O Google ou o Streamlit bloqueou o envio! Detalhe do Erro: {str(e)}")
         
 def broadcast_emails(leaderboard_df, full_db, questions_list):
     total_students = len(leaderboard_df)
