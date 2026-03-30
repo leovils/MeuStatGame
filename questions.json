@@ -1,602 +1,602 @@
 [
   {
     "id": "q_1",
-    "text": "Qual é a função principal da estatística descritiva nas ciências humanas?",
+    "text": "De acordo com a natureza da pesquisa social, o que diferencia uma variável de uma constante?",
     "options": [
-      "Prever eventos futuros com 100% de certeza.",
-      "Resumir e organizar um conjunto de dados para facilitar a compreensão.",
-      "Provar que uma correlação implica necessariamente causalidade.",
-      "Substituir a necessidade de coleta de dados em campo."
+      "A variável é um traço que não muda entre os indivíduos, enquanto a constante difere.",
+      "Uma variável é uma característica que difere ou muda de um indivíduo para outro, enquanto a constante permanece igual em todos os casos.",
+      "As constantes são medidas apenas em nível nominal, enquanto variáveis são intervalares.",
+      "Constantes são variáveis dependentes e variáveis são independentes."
     ],
-    "answer": "Resumir e organizar um conjunto de dados para facilitar a compreensão.",
+    "answer": "Uma variável é uma característica que difere ou muda de um indivíduo para outro, enquanto a constante permanece igual em todos os casos.",
     "difficulty": "easy"
   },
   {
     "id": "q_2",
-    "text": "Uma variável que classifica os indivíduos em 'casado', 'solteiro' ou 'divorciado' pertence a qual nível de mensuração?",
+    "text": "Qual é a unidade de observação mais comum na coleta de dados de cientistas sociais?",
     "options": [
-      "Nominal",
-      "Ordinal",
-      "Intervalar",
-      "Razão"
+      "Indivíduos",
+      "Agregados",
+      "Hipóteses",
+      "Variáveis independentes"
     ],
-    "answer": "Nominal",
+    "answer": "Indivíduos",
     "difficulty": "easy"
   },
   {
     "id": "q_3",
-    "text": "Se um pesquisador organiza as notas de uma turma da maior para a menor, qual é o valor que se encontra exatamente no meio da distribuição?",
+    "text": "Em um experimento social, como é chamado o grupo que não é exposto à manipulação da variável independente?",
     "options": [
-      "Média",
-      "Moda",
-      "Mediana",
-      "Desvio Padrão"
+      "Grupo experimental",
+      "Grupo de controle",
+      "Unidade de agregação",
+      "Variável dependente"
     ],
-    "answer": "Mediana",
+    "answer": "Grupo de controle",
     "difficulty": "easy"
   },
   {
     "id": "q_4",
-    "text": "O que caracteriza o nível de mensuração ordinal?",
+    "text": "Um pesquisador que utiliza dados previamente coletados pelo governo para realizar sua própria análise está empregando qual estratégia?",
     "options": [
-      "As categorias são apenas nomes sem hierarquia.",
-      "Existe uma ordem ou ranking entre as categorias, mas a distância entre elas não é precisa.",
-      "Existe um zero absoluto que indica ausência do atributo.",
-      "Os dados são sempre coletados através de experimentos laboratoriais."
+      "Observação participativa",
+      "Experimento de campo",
+      "Análise secundária",
+      "Pesquisa tipo survey"
     ],
-    "answer": "Existe uma ordem ou ranking entre as categorias, mas a distância entre elas não é precisa.",
-    "difficulty": "medium"
+    "answer": "Análise secundária",
+    "difficulty": "easy"
   },
   {
     "id": "q_5",
-    "text": "Em uma distribuição de frequências, o que representa a 'frequência acumulada'?",
+    "text": "Qual o nível de mensuração de uma variável que permite classificar casos em categorias mutuamente exclusivas e exaustivas, mas sem ordem intrínseca?",
     "options": [
-      "O número total de vezes que um único escore aparece.",
-      "A soma das frequências de todos os escores anteriores até o escore atual.",
-      "A média aritmética de todas as frequências da tabela.",
-      "A diferença entre a maior e a menor frequência."
+      "Nível ordinal",
+      "Nível nominal",
+      "Nível intervalar",
+      "Nível de razão"
     ],
-    "answer": "A soma das frequências de todos os escores anteriores até o escore atual.",
-    "difficulty": "medium"
+    "answer": "Nível nominal",
+    "difficulty": "easy"
   },
   {
     "id": "q_6",
-    "text": "Qual das seguintes medidas de tendência central é a mais sensível a valores extremos (outliers)?",
+    "text": "A classificação de status socioeconômico em 'Classe Baixa', 'Classe Média' e 'Classe Alta' representa qual nível de medida?",
     "options": [
-      "Moda",
-      "Mediana",
-      "Média Aritmética",
-      "Ponto Médio"
+      "Nominal",
+      "Ordinal",
+      "Intervalar",
+      "Contínuo"
     ],
-    "answer": "Média Aritmética",
-    "difficulty": "medium"
+    "answer": "Ordinal",
+    "difficulty": "easy"
   },
   {
     "id": "q_7",
-    "text": "Ao criar intervalos de classe em uma tabela de frequência, por que é importante que as classes sejam mutuamente exclusivas?",
+    "text": "Qual é o termo estatístico para o erro inevitável que ocorre sempre que tomamos uma amostra pequena de um grupo maior?",
     "options": [
-      "Para que a tabela fique esteticamente mais bonita.",
-      "Para garantir que cada escore pertença a apenas um intervalo de classe.",
-      "Para aumentar artificialmente o tamanho da amostra.",
-      "Para que a média seja sempre igual à mediana."
+      "Erro de medição",
+      "Erro sistemático",
+      "Erro amostral",
+      "Variável de confusão"
     ],
-    "answer": "Para garantir que cada escore pertença a apenas um intervalo de classe.",
-    "difficulty": "hard"
+    "answer": "Erro amostral",
+    "difficulty": "easy"
   },
   {
     "id": "q_8",
-    "text": "Se em uma amostra de 20 pessoas, 10 possuem nível superior, qual é a proporção correspondente?",
+    "text": "Na organização de dados, como se obtém a proporção (P) de uma categoria?",
     "options": [
-      "0,50",
-      "10,0",
-      "50,0",
-      "2,0"
+      "Multiplicando a frequência por 100.",
+      "Dividindo a frequência da categoria (f) pelo número total de casos (N).",
+      "Subtraindo o limite inferior do limite superior da classe.",
+      "Somando todas as frequências acumuladas."
     ],
-    "answer": "0,50",
+    "answer": "Dividindo a frequência da categoria (f) pelo número total de casos (N).",
     "difficulty": "easy"
   },
   {
     "id": "q_9",
-    "text": "Qual é a principal diferença entre o nível de mensuração intervalar e o de razão?",
+    "text": "Qual a principal vantagem de usar porcentagens em vez de frequências absolutas ao comparar dois grupos?",
     "options": [
-      "O nível intervalar não permite ordenação.",
-      "O nível de razão possui um ponto zero absoluto (ausência da característica).",
-      "O nível intervalar é usado apenas para variáveis qualitativas.",
-      "Não há diferença técnica entre os dois."
+      "Eliminar a necessidade de medir a variável independente.",
+      "Padronizar as distribuições em termos de tamanho, permitindo comparações justas entre grupos de Ns diferentes.",
+      "Reduzir o desvio padrão da amostra automaticamente.",
+      "Tornar os dados nominais em dados intervalares."
     ],
-    "answer": "O nível de razão possui um ponto zero absoluto (ausência da característica).",
+    "answer": "Padronizar as distribuições em termos de tamanho, permitindo comparações justas entre grupos de Ns diferentes.",
     "difficulty": "medium"
   },
   {
     "id": "q_10",
-    "text": "Em uma distribuição unimodal perfeitamente simétrica, qual a relação entre média, mediana e moda?",
+    "text": "O que indica uma 'Taxa de Variação' negativa entre dois períodos de tempo?",
     "options": [
-      "A média é maior que a moda.",
-      "A mediana é menor que a média.",
-      "As três medidas possuem o mesmo valor.",
-      "A moda é sempre o dobro da média."
+      "Um crescimento acelerado da população.",
+      "Uma redução no tamanho da variável observada entre o tempo 1 e o tempo 2.",
+      "Que houve erro no cálculo dos limites de classe.",
+      "Que a variável é nominal e não pode sofrer variação."
     ],
-    "answer": "As três medidas possuem o mesmo valor.",
+    "answer": "Uma redução no tamanho da variável observada entre o tempo 1 e o tempo 2.",
     "difficulty": "medium"
   },
   {
     "id": "q_11",
-    "text": "Como se calcula a porcentagem a partir de uma frequência (f) e do número total de casos (N)?",
+    "text": "Em uma distribuição de frequência agrupada, o que define o 'Limite Real' de uma classe de números inteiros como 60-64?",
     "options": [
-      "(f / N) * 100",
-      "(N / f) * 100",
-      "f * N",
-      "f + N / 100"
+      "60 e 64 exatamente.",
+      "59,5 e 64,5.",
+      "O ponto médio 62.",
+      "A frequência acumulada da classe anterior."
     ],
-    "answer": "(f / N) * 100",
-    "difficulty": "easy"
+    "answer": "59,5 e 64,5.",
+    "difficulty": "medium"
   },
   {
     "id": "q_12",
-    "text": "Qual gráfico é mais adequado para representar variáveis nominais ou qualitativas?",
+    "text": "Como se define o ponto médio (m) de um intervalo de classe?",
     "options": [
-      "Histograma",
-      "Polígono de frequência",
-      "Gráfico de barras ou de setores (pizza)",
-      "Gráfico de dispersão"
+      "A frequência total dividida por 2.",
+      "O valor do escore mais central no intervalo de classe.",
+      "A soma de todos os escores brutos da classe.",
+      "O limite superior multiplicado pelo inferior."
     ],
-    "answer": "Gráfico de barras ou de setores (pizza)",
+    "answer": "O valor do escore mais central no intervalo de classe.",
     "difficulty": "easy"
   },
   {
     "id": "q_13",
-    "text": "O que define o 'ponto médio' de um intervalo de classe?",
+    "text": "O que representa uma classificação percentil de 60% em uma prova?",
     "options": [
-      "A frequência do intervalo.",
-      "A soma dos limites inferior e superior dividida por dois.",
-      "O limite superior menos o limite inferior.",
-      "A mediana da amostra total."
+      "Que o aluno acertou 60% das questões do teste.",
+      "Que o aluno obteve uma nota superior ou igual a 60% dos demais estudantes da classe.",
+      "Que a média da classe foi de 60 pontos.",
+      "Que 40% da classe obteve nota 60."
     ],
-    "answer": "A soma dos limites inferior e superior dividida por dois.",
+    "answer": "Que o aluno obteve uma nota superior ou igual a 60% dos demais estudantes da classe.",
     "difficulty": "medium"
   },
   {
     "id": "q_14",
-    "text": "Em uma série de dados: 2, 2, 3, 5, 8. Qual é a moda?",
+    "text": "Qual medida estatística divide a distribuição em 10 porções de tamanhos iguais?",
     "options": [
-      "2",
-      "3",
-      "5",
-      "8"
+      "Quartis",
+      "Decis",
+      "Desvios padrão",
+      "Amplitude interquartil"
     ],
-    "answer": "2",
+    "answer": "Decis",
     "difficulty": "easy"
   },
   {
     "id": "q_15",
-    "text": "Quando utilizamos a sigla 'N' na fórmula da média, a que estamos nos referindo?",
+    "text": "Em uma tabulação cruzada, qual regra prática deve ser usada para escolher o sentido das porcentagens?",
     "options": [
-      "Ao valor nominal da variável.",
-      "Ao número total de casos ou observações.",
-      "Ao nível de significância.",
-      "À nota média da turma."
+      "Sempre use porcentagens totais para evitar ambiguidades.",
+      "Se a variável independente estiver nas colunas, use porcentagens por coluna.",
+      "Se a variável dependente estiver nas linhas, use porcentagens por linha.",
+      "Use apenas frequências brutas em tabelas de dupla entrada."
     ],
-    "answer": "Ao número total de casos ou observações.",
-    "difficulty": "easy"
+    "answer": "Se a variável independente estiver nas colunas, use porcentagens por coluna.",
+    "difficulty": "medium"
   },
   {
     "id": "q_16",
-    "text": "Qual o objetivo de usar proporções e porcentagens em vez de frequências absolutas?",
+    "text": "Qual gráfico é mais indicado para ressaltar a continuidade de dados ordinais ou intervalares, conectando pontos acima dos pontos médios das classes?",
     "options": [
-      "Tornar os números maiores e mais impressionantes.",
-      "Permitir a comparação entre grupos de tamanhos diferentes.",
-      "Eliminar erros de medição.",
-      "Substituir o cálculo da média."
+      "Gráfico em setores",
+      "Histograma",
+      "Polígono de frequência",
+      "Gráfico de barras descontínuo"
     ],
-    "answer": "Permitir a comparação entre grupos de tamanhos diferentes.",
+    "answer": "Polígono de frequência",
     "difficulty": "medium"
   },
   {
     "id": "q_17",
-    "text": "Se a mediana de uma distribuição de renda é R$ 2.000,00, isso significa que:",
+    "text": "Como é chamada uma distribuição que possui uma 'cauda' alongada para a esquerda, indicando que a maioria dos escores é alta?",
     "options": [
-      "Todos ganham R$ 2.000,00.",
-      "A média de salários é exatamente R$ 2.000,00.",
-      "50% da amostra ganha até R$ 2.000,00 e os outros 50% ganham acima disso.",
-      "Ninguém na amostra ganha menos que R$ 2.000,00."
+      "Positivamente assimétrica",
+      "Negativamente assimétrica",
+      "Simétrica leptocúrtica",
+      "Bimodal"
     ],
-    "answer": "50% da amostra ganha até R$ 2.000,00 e os outros 50% ganham acima disso.",
+    "answer": "Negativamente assimétrica",
     "difficulty": "medium"
   },
   {
     "id": "q_18",
-    "text": "O que caracteriza tecnicamente uma variável quantitativa discreta?",
-    "options": [
-      "Pode assumir qualquer valor dentro de um intervalo contínuo, incluindo decimais infinitos.",
-      "Assume valores que podem ser contados, geralmente resultantes de uma contagem de unidades inteiras.",
-      "É uma variável puramente qualitativa que não pode ser numerada.",
-      "Representa apenas categorias sem nenhuma ordem lógica."
-    ],
-    "answer": "Assume valores que podem ser contados, geralmente resultantes de uma contagem de unidades inteiras.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_19",
-    "text": "O que é uma distribuição 'bimodal'?",
-    "options": [
-      "Uma distribuição sem nenhuma moda.",
-      "Uma distribuição com duas modas (dois valores com alta frequência).",
-      "Uma distribuição onde a média é igual ao dobro da moda.",
-      "Uma distribuição com apenas dois casos observados."
-    ],
-    "answer": "Uma distribuição com duas modas (dois valores com alta frequência).",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_20",
-    "text": "A 'amplitude de classe' refere-se a:",
-    "options": [
-      "O número de classes na tabela.",
-      "A diferença entre o limite superior e o inferior de um intervalo.",
-      "O total de casos na amostra.",
-      "A média dos valores da classe."
-    ],
-    "answer": "A diferença entre o limite superior e o inferior de um intervalo.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_21",
-    "text": "Qual nível de medida permite realizar todas as operações aritméticas, incluindo multiplicação e divisão com significado real devido ao zero absoluto?",
-    "options": [
-      "Nominal",
-      "Ordinal",
-      "Razão",
-      "Intervalar"
-    ],
-    "answer": "Razão",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_22",
-    "text": "Em uma distribuição com assimetria negativa (cauda à esquerda), geralmente:",
-    "options": [
-      "A média é menor que a mediana.",
-      "A média é maior que a mediana.",
-      "A média e a mediana são iguais.",
-      "A moda é sempre zero."
-    ],
-    "answer": "A média é menor que a mediana.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_23",
-    "text": "A estatística é frequentemente dividida em dois grandes campos. Quais são?",
-    "options": [
-      "Matemática e Teórica.",
-      "Descritiva e Inferencial.",
-      "Simples e Complexa.",
-      "Social e Biológica."
-    ],
-    "answer": "Descritiva e Inferencial.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_24",
-    "text": "O que é um 'escore bruto'?",
-    "options": [
-      "Um valor que já foi processado estatisticamente.",
-      "A medida original tal como foi coletada, antes de qualquer tratamento.",
-      "O resultado final de uma divisão.",
-      "Um erro cometido durante a tabulação."
-    ],
-    "answer": "A medida original tal como foi coletada, antes de qualquer tratamento.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_25",
-    "text": "A soma de todos os desvios em relação à média (Σ(X - média)) é sempre igual a:",
-    "options": [
-      "1",
-      "N",
-      "0",
-      "O desvio padrão."
-    ],
-    "answer": "0",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_26",
-    "text": "Qual é a principal utilidade do histograma?",
-    "options": [
-      "Mostrar a relação entre duas variáveis diferentes.",
-      "Representar visualmente a distribuição de frequências de variáveis contínuas.",
-      "Listar os nomes de todos os participantes da pesquisa.",
-      "Calcular a probabilidade de erro."
-    ],
-    "answer": "Representar visualmente a distribuição de frequências de variáveis contínuas.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_27",
-    "text": "Se o número de casos (N) é par, como se localiza a posição da mediana?",
-    "options": [
-      "É o valor do caso central.",
-      "É a média aritmética dos dois valores centrais.",
-      "É o valor mais alto da amostra.",
-      "Nesta condição, a mediana não existe."
-    ],
-    "answer": "É a média aritmética dos dois valores centrais.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_28",
-    "text": "A variável 'Temperatura em graus Celsius' é um exemplo clássico de qual nível?",
-    "options": [
-      "Nominal",
-      "Ordinal",
-      "Intervalar",
-      "Razão"
-    ],
-    "answer": "Intervalar",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_29",
-    "text": "Uma tabela de frequência que apresenta a variável 'Gênero' (Masculino/Feminino) utiliza qual nível de mensuração?",
-    "options": [
-      "Nominal",
-      "Intervalar",
-      "Contínuo",
-      "Numérico"
-    ],
-    "answer": "Nominal",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_30",
-    "text": "O termo 'ΣX' na fórmula da média significa:",
-    "options": [
-      "A média dos valores de X.",
-      "O produto de todos os valores de X.",
-      "A soma de todos os valores de X.",
-      "A raiz quadrada de X."
-    ],
-    "answer": "A soma de todos os valores de X.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_31",
-    "text": "Ao agrupar dados em intervalos, perdemos certa precisão. Por que os pesquisadores fazem isso?",
-    "options": [
-      "Para esconder dados desfavoráveis.",
-      "Para facilitar a visualização de padrões em grandes conjuntos de dados.",
-      "Porque é uma regra obrigatória da matemática.",
-      "Para reduzir o valor da média."
-    ],
-    "answer": "Para facilitar a visualização de padrões em grandes conjuntos de dados.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_32",
-    "text": "A 'Moda' pode ser usada para variáveis quantitativas?",
-    "options": [
-      "Sim, ela representa o valor que mais se repete.",
-      "Não, a moda é exclusiva para variáveis qualitativas.",
-      "Apenas se a amostra for maior que 1000 casos.",
-      "Apenas se a média for zero."
-    ],
-    "answer": "Sim, ela representa o valor que mais se repete.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_33",
-    "text": "Qual medida de tendência central deve ser evitada se a distribuição for muito assimétrica?",
-    "options": [
-      "Moda",
-      "Mediana",
-      "Média Aritmética",
-      "Nenhuma, todas são adequadas."
-    ],
-    "answer": "Média Aritmética",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_34",
-    "text": "No polígono de frequências, os pontos são plotados acima de qual valor de cada intervalo?",
-    "options": [
-      "Limite inferior",
-      "Limite superior",
-      "Ponto médio",
-      "Frequência acumulada"
-    ],
-    "answer": "Ponto médio",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_35",
-    "text": "A proporção de 0,25 equivale a qual porcentagem?",
-    "options": [
-      "2,5%",
-      "25%",
-      "0,25%",
-      "250%"
-    ],
-    "answer": "25%",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_36",
-    "text": "Em estatística, o termo 'população' refere-se sempre a pessoas?",
-    "options": [
-      "Sim, estatística social estuda apenas seres humanos.",
-      "Não, refere-se ao conjunto total de todos os casos de interesse (objetos, eventos, etc).",
-      "Sim, por definição demográfica.",
-      "Não, refere-se apenas a grandes cidades."
-    ],
-    "answer": "Não, refere-se ao conjunto total de todos os casos de interesse (objetos, eventos, etc).",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_37",
-    "text": "O que é uma 'razão' (ratio) em termos de organização de dados?",
-    "options": [
-      "A comparação entre duas quantidades (ex: número de homens por mulher).",
-      "O resultado de uma soma.",
-      "O valor da mediana.",
-      "O nível mais baixo de mensuração."
-    ],
-    "answer": "A comparação entre duas quantidades (ex: número de homens por mulher).",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_38",
-    "text": "Qual medida de tendência central é calculada como o 'valor mais típico' de uma categoria nominal?",
+    "text": "A medida de tendência central que representa o valor mais frequente em uma distribuição é a:",
     "options": [
       "Média",
-      "Mediana",
       "Moda",
+      "Mediana",
       "Variância"
     ],
     "answer": "Moda",
     "difficulty": "easy"
   },
   {
-    "id": "q_39",
-    "text": "Se somarmos as frequências relativas de todas as categorias de uma variável, o resultado deve ser:",
+    "id": "q_19",
+    "text": "Como se determina a posição da mediana quando o número de casos (N) é par?",
     "options": [
-      "0",
-      "1 (ou 100%)",
-      "N",
-      "O valor da média."
+      "Ela é o escore que aparece no topo da lista.",
+      "Ela situa-se na metade do caminho entre os dois valores centrais.",
+      "Ela é sempre igual à moda em distribuições perfeitamente simétricas.",
+      "O valor da mediana é anulado se N for par."
     ],
-    "answer": "1 (ou 100%)",
+    "answer": "Ela situa-se na metade do caminho entre os dois valores centrais.",
     "difficulty": "medium"
   },
   {
-    "id": "q_40",
-    "text": "Qual é a principal desvantagem da Moda como medida de tendência central?",
+    "id": "q_20",
+    "text": "Por que a média aritmética é considerada o 'centro de gravidade' de uma distribuição?",
     "options": [
-      "É muito difícil de calcular.",
-      "Pode não existir ou pode haver mais de uma em uma distribuição.",
-      "É muito afetada por outliers.",
-      "Não pode ser usada em gráficos."
+      "Porque ela é o valor que mais se repete.",
+      "Porque a soma dos desvios acima dela é igual à soma dos desvios abaixo dela em valor absoluto.",
+      "Porque ela ignora os valores extremos.",
+      "Porque ela divide a amostra em 50% para cada lado."
     ],
-    "answer": "Pode não existir ou pode haver mais de uma em uma distribuição.",
+    "answer": "Porque a soma dos desvios acima dela é igual à soma dos desvios abaixo dela em valor absoluto.",
     "difficulty": "medium"
   },
   {
-    "id": "q_41",
-    "text": "A variável 'Número de filhos' é classificada como:",
+    "id": "q_21",
+    "text": "Qual o principal problema de usar a média para descrever uma distribuição altamente assimétrica, como a de renda?",
     "options": [
-      "Qualitativa Nominal",
-      "Quantitativa Discreta",
-      "Quantitativa Contínua",
-      "Qualitativa Ordinal"
+      "Ela é muito difícil de calcular manualmente.",
+      "Ela tende a ser distorcida por escores extremos, não representando bem o 'caso típico'.",
+      "Ela não pode ser calculada para dados decimais.",
+      "Ela sempre resulta em um número igual à mediana."
     ],
-    "answer": "Quantitativa Discreta",
+    "answer": "Ela tende a ser distorcida por escores extremos, não representando bem o 'caso típico'.",
     "difficulty": "medium"
   },
   {
-    "id": "q_42",
-    "text": "Em uma tabela de frequência para dados agrupados, o que é o 'limite real'?",
+    "id": "q_22",
+    "text": "A 'Média Ponderada' é necessária quando:",
     "options": [
-      "O valor exato que separa um intervalo do outro, evitando lacunas.",
-      "O maior valor da amostra.",
-      "A soma das frequências.",
-      "O ponto médio."
+      "Os grupos sendo combinados possuem tamanhos (N) diferentes.",
+      "O pesquisador quer que a moda seja maior que a mediana.",
+      "Todos os escores brutos são iguais.",
+      "A variável é medida apenas em nível nominal."
     ],
-    "answer": "O valor exato que separa um intervalo do outro, evitando lacunas.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_43",
-    "text": "A Mediana é afetada por valores extremamente altos no final da distribuição?",
-    "options": [
-      "Sim, ela aumenta proporcionalmente.",
-      "Não, ela depende apenas da posição central dos dados.",
-      "Sim, ela diminui.",
-      "Apenas se N for ímpar."
-    ],
-    "answer": "Não, ela depende apenas da posição central dos dados.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_44",
-    "text": "Para calcular a média de uma tabela de frequência de dados agrupados, multiplicamos a frequência de cada classe pelo seu:",
-    "options": [
-      "Limite inferior",
-      "Limite superior",
-      "Ponto médio",
-      "Frequência acumulada"
-    ],
-    "answer": "Ponto médio",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_45",
-    "text": "Qual é o primeiro passo para encontrar a mediana de um conjunto de escores brutos?",
-    "options": [
-      "Somar todos os valores.",
-      "Colocar os escores em ordem crescente ou decrescente (rol).",
-      "Dividir o primeiro valor pelo último.",
-      "Calcular a média primeiro."
-    ],
-    "answer": "Colocar os escores em ordem crescente ou decrescente (rol).",
+    "answer": "Os grupos sendo combinados possuem tamanhos (N) diferentes.",
     "difficulty": "easy"
   },
   {
-    "id": "q_46",
-    "text": "O termo 'estatística' deriva originalmente do interesse em coletar dados sobre:",
+    "id": "q_23",
+    "text": "Em uma distribuição unimodal, se a média for maior que a mediana, a curva é provavelmente:",
     "options": [
-      "O movimento dos astros.",
-      "As finanças e condições do Estado.",
-      "A biologia celular.",
-      "A resistência de materiais de construção."
+      "Simétrica",
+      "Positivamente assimétrica",
+      "Negativamente assimétrica",
+      "Mesocúrtica"
     ],
-    "answer": "As finanças e condições do Estado.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_47",
-    "text": "A média aritmética de uma amostra é um:",
-    "options": [
-      "Parâmetro",
-      "Estimador (ou estatística)",
-      "Nível nominal",
-      "Frequência acumulada"
-    ],
-    "answer": "Estimador (ou estatística)",
+    "answer": "Positivamente assimétrica",
     "difficulty": "hard"
   },
   {
-    "id": "q_48",
-    "text": "Se uma variável permite dizer que um objeto é 'maior que' outro, mas não 'quanto maior', ela é:",
+    "id": "q_24",
+    "text": "O que o termo 'Variabilidade' (ou dispersão) descreve em um conjunto de dados?",
+    "options": [
+      "O valor mais central da amostra.",
+      "Como os escores estão distribuídos ou espalhados em torno do centro da distribuição.",
+      "O número total de variáveis independentes.",
+      "A frequência da categoria modal."
+    ],
+    "answer": "Como os escores estão distribuídos ou espalhados em torno do centro da distribuição.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_25",
+    "text": "Qual é a medida de variabilidade mais simples, calculada pela diferença entre o maior e o menor escore?",
+    "options": [
+      "Desvio padrão",
+      "Variância",
+      "Amplitude (ou variação)",
+      "Desvio médio"
+    ],
+    "answer": "Amplitude (ou variação)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_26",
+    "text": "Por que a 'Variação Interquartil' (IQR) é considerada mais estável que a amplitude total?",
+    "options": [
+      "Porque inclui todos os escores da amostra.",
+      "Porque foca nos 50% centrais da distribuição, eliminando a influência de valores extremos.",
+      "Porque ela é sempre igual ao dobro da média.",
+      "Porque é calculada apenas em nível nominal."
+    ],
+    "answer": "Porque foca nos 50% centrais da distribuição, eliminando a influência de valores extremos.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_27",
+    "text": "Ao calcular a variância, por que os desvios em relação à média são elevados ao quadrado?",
+    "options": [
+      "Para aumentar o valor final e torná-lo mais fácil de ler.",
+      "Para eliminar os sinais negativos, impedindo que a soma dos desvios seja zero.",
+      "Porque é uma regra da geometria aplicada a gráficos.",
+      "Para converter a variância em desvio padrão diretamente."
+    ],
+    "answer": "Para eliminar os sinais negativos, impedindo que a soma dos desvios seja zero.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_28",
+    "text": "O desvio padrão (s) é definido como:",
+    "options": [
+      "O dobro da variância.",
+      "A raiz quadrada da variância.",
+      "A diferença entre a média e a moda.",
+      "O ponto mais alto da curva normal."
+    ],
+    "answer": "A raiz quadrada da variância.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_29",
+    "text": "Em uma distribuição normal, aproximadamente qual porcentagem dos escores cai dentro de um desvio padrão para cima ou para baixo da média?",
+    "options": [
+      "50%",
+      "68,26%",
+      "95,44%",
+      "99,74%"
+    ],
+    "answer": "68,26%",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_30",
+    "text": "Qual das seguintes afirmações sobre o desvio padrão é verdadeira?",
+    "options": [
+      "Quanto menor a variabilidade dos dados, maior o desvio padrão.",
+      "Quanto maior a variabilidade em torno da média, maior o desvio padrão.",
+      "O desvio padrão nunca pode ser comparado entre distribuições diferentes.",
+      "O desvio padrão é uma medida de tendência central."
+    ],
+    "answer": "Quanto maior a variabilidade em torno da média, maior o desvio padrão.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_31",
+    "text": "O 'coeficiente de não determinação' representa qual proporção da variância?",
+    "options": [
+      "A variância explicada pela variável independente.",
+      "A variância que não é explicada pela variável independente.",
+      "A soma total dos quadrados.",
+      "O erro amostral absoluto."
+    ],
+    "answer": "A variância que não é explicada pela variável independente.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_32",
+    "text": "Qual o nível de mensuração de variáveis como 'idade' e 'renda' quando medidas em valores exatos e possuindo um zero absoluto real?",
     "options": [
       "Nominal",
       "Ordinal",
       "Intervalar",
       "Razão"
     ],
-    "answer": "Ordinal",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_49",
-    "text": "Qual gráfico utiliza figuras ou ícones para representar frequências?",
-    "options": [
-      "Histograma",
-      "Pictograma",
-      "Ogiva",
-      "Setores"
-    ],
-    "answer": "Pictograma",
+    "answer": "Razão",
     "difficulty": "easy"
   },
   {
-    "id": "q_50",
-    "text": "Por que a média é considerada o 'ponto de equilíbrio' de uma distribuição?",
+    "id": "q_33",
+    "text": "O que significa dizer que categorias nominais devem ser 'exaustivas'?",
     "options": [
-      "Porque ela é sempre igual à mediana.",
-      "Porque a soma dos desvios positivos e negativos em relação a ela é zero.",
-      "Porque ela nunca muda de valor.",
-      "Porque ela ignora os outliers."
+      "Que as categorias não devem se sobrepor.",
+      "Que deve haver um lugar ou categoria para cada caso que surgir na pesquisa.",
+      "Que os entrevistados devem estar cansados ao responder.",
+      "Que o pesquisador usou todos os dados disponíveis no arquivo secundário."
     ],
-    "answer": "Porque a soma dos desvios positivos e negativos em relação a ela é zero.",
+    "answer": "Que deve haver um lugar ou categoria para cada caso que surgir na pesquisa.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_34",
+    "text": "Na escala Fahrenheit, o ponto zero é considerado artificial porque:",
+    "options": [
+      "Não indica a ausência total de calor.",
+      "É um nível nominal de medida.",
+      "Varia conforme a umidade do ar.",
+      "É usado apenas em experimentos de laboratório."
+    ],
+    "answer": "Não indica a ausência total de calor.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_35",
+    "text": "Variáveis descontínuas são aquelas que:",
+    "options": [
+      "Apresentam uma gama infinita de valores possíveis.",
+      "Assumem apenas valores específicos, como números inteiros para o tamanho da família.",
+      "Mudam de nível de mensuração constantemente.",
+      "Só podem ser medidas por observação participativa."
+    ],
+    "answer": "Assumem apenas valores específicos, como números inteiros para o tamanho da família.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_36",
+    "text": "Qual a principal característica de uma distribuição 'leptocúrtica'?",
+    "options": [
+      "É achatada (platicúrtica).",
+      "É alta ou tem um pico considerável.",
+      "É perfeitamente assimétrica.",
+      "Possui duas modas distintas."
+    ],
+    "answer": "É alta ou tem um pico considerável.",
     "difficulty": "hard"
+  },
+  {
+    "id": "q_37",
+    "text": "O que determina a direção da assimetria em uma distribuição?",
+    "options": [
+      "A altura do pico central.",
+      "A posição da cauda alongada da curva.",
+      "A média aritmética exata.",
+      "O número total de casos (N)."
+    ],
+    "answer": "A posição da cauda alongada da curva.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_38",
+    "text": "A mediana corresponde a qual classificação percentual?",
+    "options": [
+      "Percentil 25.",
+      "Percentil 50.",
+      "Percentil 75.",
+      "Percentil 100."
+    ],
+    "answer": "Percentil 50.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_39",
+    "text": "No gráfico box-plot, o quadro retangular central representa qual intervalo da distribuição?",
+    "options": [
+      "A amplitude total dos dados.",
+      "O intervalo entre um desvio padrão acima e abaixo da média.",
+      "O intervalo entre o primeiro e o terceiro quartis (Q1 a Q3).",
+      "Apenas o valor da moda e da média combinados."
+    ],
+    "answer": "O intervalo entre o primeiro e o terceiro quartis (Q1 a Q3).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_40",
+    "text": "O 'desvio' em estatística indica:",
+    "options": [
+      "A soma total de quadrados dividida pelo erro.",
+      "A distância e a direção de um escore bruto em relação à média.",
+      "Uma falha na coleta de dados primários.",
+      "A diferença entre a amostra e o grupo de controle."
+    ],
+    "answer": "A distância e a direção de um escore bruto em relação à média.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_41",
+    "text": "Qual das seguintes fontes de dados é considerada um site do governo norte-americano para ciências sociais?",
+    "options": [
+      "Playboy.com",
+      "FEDSTATS",
+      "Nielsen Media Research",
+      "Amazon.com"
+    ],
+    "answer": "FEDSTATS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_42",
+    "text": "Hipóteses em ciências sociais são frequentemente expressas como uma relação entre:",
+    "options": [
+      "Duas constantes invariáveis.",
+      "Uma variável independente e uma variável dependente.",
+      "Apenas observações participativas discretas.",
+      "Gráficos em setores e histogramas."
+    ],
+    "answer": "Uma variável independente e uma variável dependente.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_43",
+    "text": "Qual o resultado de somar todos os desvios brutos em relação à média sem elevá-los ao quadrado?",
+    "options": [
+      "O valor da variância.",
+      "Zero.",
+      "O desvio padrão da amostra.",
+      "O erro padrão estimado."
+    ],
+    "answer": "Zero.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_44",
+    "text": "Uma taxa como a de mortalidade infantil é frequentemente calculada com base em quantos casos em potencial?",
+    "options": [
+      "100 casos.",
+      "1.000 casos.",
+      "10.000 casos.",
+      "Apenas per capita (1 caso)."
+    ],
+    "answer": "1.000 casos.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_45",
+    "text": "O que caracteriza uma distribuição 'bimodal'?",
+    "options": [
+      "Uma curva sem nenhum pico de frequência.",
+      "Uma curva com dois pontos de frequência máxima.",
+      "Uma curva onde a média é igual ao zero.",
+      "Uma curva perfeitamente plana."
+    ],
+    "answer": "Uma curva com dois pontos de frequência máxima.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_46",
+    "text": "No cálculo da variância de uma distribuição de frequência simples, o que representa fX²?",
+    "options": [
+      "A soma das frequências multiplicada pelo erro quadrado.",
+      "O produto do valor do escore ao quadrado por sua frequência.",
+      "O quadrado da média total.",
+      "O limite real superior do intervalo."
+    ],
+    "answer": "O produto do valor do escore ao quadrado por sua frequência.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_47",
+    "text": "A regra de arredondamento sugerida no livro orienta arredondar a resposta final para:",
+    "options": [
+      "Um número inteiro.",
+      "Dois algarismos decimais a mais do que os contidos nos resultados originais.",
+      "Apenas uma casa decimal.",
+      "Tantos dígitos quanto a calculadora permitir."
+    ],
+    "answer": "Dois algarismos decimais a mais do que os contidos nos resultados originais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_48",
+    "text": "A unidade de observação em um estudo sobre a taxa de criminalidade em regiões metropolitanas é:",
+    "options": [
+      "Pessoas individuais.",
+      "Áreas metropolitanas.",
+      "A polícia local.",
+      "A variável independente."
+    ],
+    "answer": "Áreas metropolitanas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_49",
+    "text": "O que indica o 'valor esperado' em uma distribuição de probabilidade?",
+    "options": [
+      "A variância populacional futura.",
+      "A média da distribuição de probabilidade.",
+      "A chance de cometer um erro tipo II.",
+      "O ponto mais alto de um histograma."
+    ],
+    "answer": "A média da distribuição de probabilidade.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_50",
+    "text": "Se a média é de 60,5 e o desvio padrão é de 5, qual escore bruto estaria exatamente 2 desvios padrão acima da média?",
+    "options": [
+      "65,5",
+      "70,5",
+      "50,5",
+      "121,0"
+    ],
+    "answer": "70,5",
+    "difficulty": "medium"
   }
 ]
