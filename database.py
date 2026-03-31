@@ -20,14 +20,25 @@ def init_db():
         }
         _save_db(db_state)
 
-def _load_db():
+import time
+
+def _load_db(retries=5, delay=0.1):
     init_db()
-    with open(DB_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    for attempt in range(retries):
+        try:
+            with open(DB_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError, OSError) as e:
+            if attempt == retries - 1:
+                raise e
+            time.sleep(delay)
 
 def _save_db(data):
-    with open(DB_FILE, 'w', encoding='utf-8') as f:
+    tmp_file = DB_FILE + ".tmp"
+    with open(tmp_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
+    # Substituição atômica para impedir que 40 usuários leiam um arquivo truncado
+    os.replace(tmp_file, DB_FILE)
 
 def register_student(name, course, email, nickname):
     db = _load_db()

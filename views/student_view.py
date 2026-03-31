@@ -29,8 +29,8 @@ def show_student_view():
                     st.error("Por favor, preencha todos os campos!")
         return
         
-    # Auto refresh logic for wait room / question state
-    st_autorefresh(interval=2000, limit=None, key="student_refresh")
+    # Auto refresh logic for wait room / question state (aliviado 2x para suportar mega-tráfego)
+    st_autorefresh(interval=4000, limit=None, key="student_refresh")
     
     email = st.session_state.student_email
     student = get_student(email)
