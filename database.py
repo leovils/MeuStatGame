@@ -5,40 +5,60 @@ import pandas as pd
 
 DB_FILE = 'local_db.json'
 
-def init_db():
-    if not os.path.exists(DB_FILE):
-        db_state = {
-            "students": {},  # email -> {name, course, nickname, score}
-            "responses": [], # List of {email, question_id, answer, time_taken, score_awarded}
+import streamlit as st
+import threading
+import time
+
+@st.cache_resource
+def get_global_db_state():
+    """Retorna o estado puro na RAM"""
+    state = {
+        "db": None,
+        "lock": threading.Lock()
+    }
+    
+    if os.path.exists(DB_FILE):
+        for attempt in range(5):
+            try:
+                with open(DB_FILE, 'r', encoding='utf-8') as f:
+                    state["db"] = json.load(f)
+                break
+            except (json.JSONDecodeError, OSError):
+                time.sleep(0.1)
+                
+    if not state["db"]:
+        state["db"] = {
+            "students": {},
+            "responses": [],
             "game_state": {
                 "current_round": 1,
-                "current_question": 0,    # 0 means not started/waiting
+                "current_question": 0,
                 "question_start_time": None,
                 "is_active": False,
                 "show_answer": False
             }
         }
-        _save_db(db_state)
+    return state
 
-import time
+def _load_db():
+    state = get_global_db_state()
+    return state["db"]
 
-def _load_db(retries=5, delay=0.1):
-    init_db()
-    for attempt in range(retries):
+def __bg_save(data, state):
+    with state["lock"]:
         try:
-            with open(DB_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except (json.JSONDecodeError, FileNotFoundError, OSError) as e:
-            if attempt == retries - 1:
-                raise e
-            time.sleep(delay)
+            tmp_file = DB_FILE + ".tmp"
+            with open(tmp_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=4)
+            os.replace(tmp_file, DB_FILE)
+        except Exception:
+            pass
 
 def _save_db(data):
-    tmp_file = DB_FILE + ".tmp"
-    with open(tmp_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=4)
-    # Substituição atômica para impedir que 40 usuários leiam um arquivo truncado
-    os.replace(tmp_file, DB_FILE)
+    state = get_global_db_state()
+    state["db"] = data
+    # Usa uma Thread asssíncrona para que o app libere a tela SEM ESPERAR a trava do disco
+    threading.Thread(target=__bg_save, args=(data, state)).start()
 
 def register_student(name, course, email, nickname):
     db = _load_db()
