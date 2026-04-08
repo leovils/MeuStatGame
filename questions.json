@@ -1,602 +1,1052 @@
 [
   {
     "id": "q_1",
-    "text": "De acordo com a natureza da pesquisa social, o que diferencia uma variável de uma constante?",
-    "options": [
-      "A variável é um traço que não muda entre os indivíduos, enquanto a constante difere.",
-      "Uma variável é uma característica que difere ou muda de um indivíduo para outro, enquanto a constante permanece igual em todos os casos.",
-      "As constantes são medidas apenas em nível nominal, enquanto variáveis são intervalares.",
-      "Constantes são variáveis dependentes e variáveis são independentes."
-    ],
-    "answer": "Uma variável é uma característica que difere ou muda de um indivíduo para outro, enquanto a constante permanece igual em todos os casos.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_2",
-    "text": "Qual é a unidade de observação mais comum na coleta de dados de cientistas sociais?",
-    "options": [
-      "Indivíduos",
-      "Agregados",
-      "Hipóteses",
-      "Variáveis independentes"
-    ],
+    "text": "Qual é a unidade de observação mais comum na pesquisa social?",
+    "options": ["Agregados", "Indivíduos", "Hipóteses", "Variáveis"],
     "answer": "Indivíduos",
     "difficulty": "easy"
   },
   {
+    "id": "q_2",
+    "text": "Variáveis que possuem categorias mutuamente exclusivas e exaustivas, mas sem ordem, são de nível:",
+    "options": ["Ordinal", "Intervalar", "Nominal", "Razão"],
+    "answer": "Nominal",
+    "difficulty": "easy"
+  },
+  {
     "id": "q_3",
-    "text": "Em um experimento social, como é chamado o grupo que não é exposto à manipulação da variável independente?",
-    "options": [
-      "Grupo experimental",
-      "Grupo de controle",
-      "Unidade de agregação",
-      "Variável dependente"
-    ],
-    "answer": "Grupo de controle",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_4",
-    "text": "Um pesquisador que utiliza dados previamente coletados pelo governo para realizar sua própria análise está empregando qual estratégia?",
-    "options": [
-      "Observação participativa",
-      "Experimento de campo",
-      "Análise secundária",
-      "Pesquisa tipo survey"
-    ],
-    "answer": "Análise secundária",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_5",
-    "text": "Qual o nível de mensuração de uma variável que permite classificar casos em categorias mutuamente exclusivas e exaustivas, mas sem ordem intrínseca?",
-    "options": [
-      "Nível ordinal",
-      "Nível nominal",
-      "Nível intervalar",
-      "Nível de razão"
-    ],
-    "answer": "Nível nominal",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_6",
-    "text": "A classificação de status socioeconômico em 'Classe Baixa', 'Classe Média' e 'Classe Alta' representa qual nível de medida?",
-    "options": [
-      "Nominal",
-      "Ordinal",
-      "Intervalar",
-      "Contínuo"
-    ],
+    "text": "A classificação de 'muito satisfeito' a 'muito insatisfeito' representa qual nível de medida?",
+    "options": ["Nominal", "Ordinal", "Intervalar", "Contínuo"],
     "answer": "Ordinal",
     "difficulty": "easy"
   },
   {
+    "id": "q_4",
+    "text": "Qual nível de mensuração possui um zero absoluto que indica ausência total do atributo?",
+    "options": ["Nominal", "Ordinal", "Intervalar", "Razão"],
+    "answer": "Razão",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_5",
+    "text": "Variáveis que assumem apenas valores inteiros, como número de filhos, são chamadas de:",
+    "options": ["Contínuas", "Dependentes", "Descontínuas ou discretas", "Nominais"],
+    "answer": "Descontínuas ou discretas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_6",
+    "text": "O peso corporal é um exemplo de variável:",
+    "options": ["Discreta", "Contínua", "Nominal", "Qualitativa"],
+    "answer": "Contínua",
+    "difficulty": "medium"
+  },
+  {
     "id": "q_7",
-    "text": "Qual é o termo estatístico para o erro inevitável que ocorre sempre que tomamos uma amostra pequena de um grupo maior?",
-    "options": [
-      "Erro de medição",
-      "Erro sistemático",
-      "Erro amostral",
-      "Variável de confusão"
-    ],
-    "answer": "Erro amostral",
+    "text": "Em um experimento, a variável que o pesquisador manipula para observar efeitos é a:",
+    "options": ["Dependente", "Independente", "Constante", "Unidade de observação"],
+    "answer": "Independente",
     "difficulty": "easy"
   },
   {
     "id": "q_8",
-    "text": "Na organização de dados, como se obtém a proporção (P) de uma categoria?",
-    "options": [
-      "Multiplicando a frequência por 100.",
-      "Dividindo a frequência da categoria (f) pelo número total de casos (N).",
-      "Subtraindo o limite inferior do limite superior da classe.",
-      "Somando todas as frequências acumuladas."
-    ],
-    "answer": "Dividindo a frequência da categoria (f) pelo número total de casos (N).",
+    "text": "O uso de dados coletados por outras instituições (como o Censo) é chamado de:",
+    "options": ["Experimento", "Análise primária", "Análise secundária", "Survey"],
+    "answer": "Análise secundária",
     "difficulty": "easy"
   },
   {
     "id": "q_9",
-    "text": "Qual a principal vantagem de usar porcentagens em vez de frequências absolutas ao comparar dois grupos?",
-    "options": [
-      "Eliminar a necessidade de medir a variável independente.",
-      "Padronizar as distribuições em termos de tamanho, permitindo comparações justas entre grupos de Ns diferentes.",
-      "Reduzir o desvio padrão da amostra automaticamente.",
-      "Tornar os dados nominais em dados intervalares."
-    ],
-    "answer": "Padronizar as distribuições em termos de tamanho, permitindo comparações justas entre grupos de Ns diferentes.",
-    "difficulty": "medium"
+    "text": "Uma hipótese é definida como uma afirmação da relação entre duas ou mais:",
+    "options": ["Constantes", "Unidades", "Variáveis", "Médias"],
+    "answer": "Variáveis",
+    "difficulty": "easy"
   },
   {
     "id": "q_10",
-    "text": "O que indica uma 'Taxa de Variação' negativa entre dois períodos de tempo?",
-    "options": [
-      "Um crescimento acelerado da população.",
-      "Uma redução no tamanho da variável observada entre o tempo 1 e o tempo 2.",
-      "Que houve erro no cálculo dos limites de classe.",
-      "Que a variável é nominal e não pode sofrer variação."
-    ],
-    "answer": "Uma redução no tamanho da variável observada entre o tempo 1 e o tempo 2.",
+    "text": "Na pesquisa tipo 'survey', os efeitos são registrados:",
+    "options": ["Simultaneamente", "Retrospectivamente", "Antes de ocorrerem", "Em laboratório"],
+    "answer": "Retrospectivamente",
     "difficulty": "medium"
   },
   {
     "id": "q_11",
-    "text": "Em uma distribuição de frequência agrupada, o que define o 'Limite Real' de uma classe de números inteiros como 60-64?",
-    "options": [
-      "60 e 64 exatamente.",
-      "59,5 e 64,5.",
-      "O ponto médio 62.",
-      "A frequência acumulada da classe anterior."
-    ],
-    "answer": "59,5 e 64,5.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_12",
-    "text": "Como se define o ponto médio (m) de um intervalo de classe?",
-    "options": [
-      "A frequência total dividida por 2.",
-      "O valor do escore mais central no intervalo de classe.",
-      "A soma de todos os escores brutos da classe.",
-      "O limite superior multiplicado pelo inferior."
-    ],
-    "answer": "O valor do escore mais central no intervalo de classe.",
+    "text": "Como se calcula a proporção (P) de uma categoria?",
+    "options": ["f * 100", "f / N", "N / f", "f + N"],
+    "answer": "f / N",
     "difficulty": "easy"
   },
   {
+    "id": "q_12",
+    "text": "A soma das frequências relativas (proporções) em uma distribuição deve ser:",
+    "options": ["0,50", "100", "1,00", "N"],
+    "answer": "1,00",
+    "difficulty": "medium"
+  },
+  {
     "id": "q_13",
-    "text": "O que representa uma classificação percentil de 60% em uma prova?",
-    "options": [
-      "Que o aluno acertou 60% das questões do teste.",
-      "Que o aluno obteve uma nota superior ou igual a 60% dos demais estudantes da classe.",
-      "Que a média da classe foi de 60 pontos.",
-      "Que 40% da classe obteve nota 60."
-    ],
-    "answer": "Que o aluno obteve uma nota superior ou igual a 60% dos demais estudantes da classe.",
+    "text": "Qual medida compara o número de casos em uma categoria com o número de casos em outra?",
+    "options": ["Proporção", "Porcentagem", "Razão", "Taxa"],
+    "answer": "Razão",
     "difficulty": "medium"
   },
   {
     "id": "q_14",
-    "text": "Qual medida estatística divide a distribuição em 10 porções de tamanhos iguais?",
-    "options": [
-      "Quartis",
-      "Decis",
-      "Desvios padrão",
-      "Amplitude interquartil"
-    ],
-    "answer": "Decis",
-    "difficulty": "easy"
+    "text": "Taxas costumam ser expressas em relação a uma base de:",
+    "options": ["100", "1.000", "0,5", "Apenas 1"],
+    "answer": "1.000",
+    "difficulty": "medium"
   },
   {
     "id": "q_15",
-    "text": "Em uma tabulação cruzada, qual regra prática deve ser usada para escolher o sentido das porcentagens?",
-    "options": [
-      "Sempre use porcentagens totais para evitar ambiguidades.",
-      "Se a variável independente estiver nas colunas, use porcentagens por coluna.",
-      "Se a variável dependente estiver nas linhas, use porcentagens por linha.",
-      "Use apenas frequências brutas em tabelas de dupla entrada."
-    ],
-    "answer": "Se a variável independente estiver nas colunas, use porcentagens por coluna.",
+    "text": "O ponto equidistante que preenche lacunas entre intervalos de classe é o:",
+    "options": ["Ponto médio", "Limite real", "Frequência acumulada", "Amplitude"],
+    "answer": "Limite real",
     "difficulty": "medium"
   },
   {
     "id": "q_16",
-    "text": "Qual gráfico é mais indicado para ressaltar a continuidade de dados ordinais ou intervalares, conectando pontos acima dos pontos médios das classes?",
-    "options": [
-      "Gráfico em setores",
-      "Histograma",
-      "Polígono de frequência",
-      "Gráfico de barras descontínuo"
-    ],
-    "answer": "Polígono de frequência",
-    "difficulty": "medium"
+    "text": "O valor central de um intervalo de classe é chamado de:",
+    "options": ["Limite", "Ponto médio", "Mediana de classe", "Moda"],
+    "answer": "Ponto médio",
+    "difficulty": "easy"
   },
   {
     "id": "q_17",
-    "text": "Como é chamada uma distribuição que possui uma 'cauda' alongada para a esquerda, indicando que a maioria dos escores é alta?",
-    "options": [
-      "Positivamente assimétrica",
-      "Negativamente assimétrica",
-      "Simétrica leptocúrtica",
-      "Bimodal"
-    ],
-    "answer": "Negativamente assimétrica",
+    "text": "O número total de casos em um escore ou abaixo dele é a:",
+    "options": ["Frequência simples", "Porcentagem", "Frequência acumulada", "Proporção"],
+    "answer": "Frequência acumulada",
     "difficulty": "medium"
   },
   {
     "id": "q_18",
-    "text": "A medida de tendência central que representa o valor mais frequente em uma distribuição é a:",
-    "options": [
-      "Média",
-      "Moda",
-      "Mediana",
-      "Variância"
-    ],
-    "answer": "Moda",
-    "difficulty": "easy"
+    "text": "Qual gráfico usa barras para representar variáveis contínuas sem espaços entre elas?",
+    "options": ["Histograma", "Gráfico de barras", "Pizza", "Setores"],
+    "answer": "Histograma",
+    "difficulty": "medium"
   },
   {
     "id": "q_19",
-    "text": "Como se determina a posição da mediana quando o número de casos (N) é par?",
-    "options": [
-      "Ela é o escore que aparece no topo da lista.",
-      "Ela situa-se na metade do caminho entre os dois valores centrais.",
-      "Ela é sempre igual à moda em distribuições perfeitamente simétricas.",
-      "O valor da mediana é anulado se N for par."
-    ],
-    "answer": "Ela situa-se na metade do caminho entre os dois valores centrais.",
+    "text": "A direção da assimetria em uma curva é determinada pela:",
+    "options": ["Altura do pico", "Média", "Posição da cauda", "Mediana"],
+    "answer": "Posição da cauda",
     "difficulty": "medium"
   },
   {
     "id": "q_20",
-    "text": "Por que a média aritmética é considerada o 'centro de gravidade' de uma distribuição?",
-    "options": [
-      "Porque ela é o valor que mais se repete.",
-      "Porque a soma dos desvios acima dela é igual à soma dos desvios abaixo dela em valor absoluto.",
-      "Porque ela ignora os valores extremos.",
-      "Porque ela divide a amostra em 50% para cada lado."
-    ],
-    "answer": "Porque a soma dos desvios acima dela é igual à soma dos desvios abaixo dela em valor absoluto.",
+    "text": "Uma distribuição com cauda alongada para a direita é:",
+    "options": ["Simétrica", "Negativamente assimétrica", "Positivamente assimétrica", "Bimodal"],
+    "answer": "Positivamente assimétrica",
     "difficulty": "medium"
   },
   {
     "id": "q_21",
-    "text": "Qual o principal problema de usar a média para descrever uma distribuição altamente assimétrica, como a de renda?",
-    "options": [
-      "Ela é muito difícil de calcular manualmente.",
-      "Ela tende a ser distorcida por escores extremos, não representando bem o 'caso típico'.",
-      "Ela não pode ser calculada para dados decimais.",
-      "Ela sempre resulta em um número igual à mediana."
-    ],
-    "answer": "Ela tende a ser distorcida por escores extremos, não representando bem o 'caso típico'.",
-    "difficulty": "medium"
+    "text": "Qual medida de tendência central representa o valor mais comum?",
+    "options": ["Média", "Mediana", "Moda", "Variância"],
+    "answer": "Moda",
+    "difficulty": "easy"
   },
   {
     "id": "q_22",
-    "text": "A 'Média Ponderada' é necessária quando:",
-    "options": [
-      "Os grupos sendo combinados possuem tamanhos (N) diferentes.",
-      "O pesquisador quer que a moda seja maior que a mediana.",
-      "Todos os escores brutos são iguais.",
-      "A variável é medida apenas em nível nominal."
-    ],
-    "answer": "Os grupos sendo combinados possuem tamanhos (N) diferentes.",
+    "text": "A única medida de tendência central aplicável a dados nominais é a:",
+    "options": ["Média", "Mediana", "Moda", "Desvio Padrão"],
+    "answer": "Moda",
     "difficulty": "easy"
   },
   {
     "id": "q_23",
-    "text": "Em uma distribuição unimodal, se a média for maior que a mediana, a curva é provavelmente:",
-    "options": [
-      "Simétrica",
-      "Positivamente assimétrica",
-      "Negativamente assimétrica",
-      "Mesocúrtica"
-    ],
-    "answer": "Positivamente assimétrica",
-    "difficulty": "hard"
+    "text": "Em uma série de dados ordenada, o valor que divide a amostra em 50% é a:",
+    "options": ["Moda", "Média", "Mediana", "Média Ponderada"],
+    "answer": "Mediana",
+    "difficulty": "easy"
   },
   {
     "id": "q_24",
-    "text": "O que o termo 'Variabilidade' (ou dispersão) descreve em um conjunto de dados?",
-    "options": [
-      "O valor mais central da amostra.",
-      "Como os escores estão distribuídos ou espalhados em torno do centro da distribuição.",
-      "O número total de variáveis independentes.",
-      "A frequência da categoria modal."
-    ],
-    "answer": "Como os escores estão distribuídos ou espalhados em torno do centro da distribuição.",
+    "text": "A média aritmética é calculada pela soma dos escores dividida por:",
+    "options": ["f", "X", "N", "sigma"],
+    "answer": "N",
     "difficulty": "easy"
   },
   {
     "id": "q_25",
-    "text": "Qual é a medida de variabilidade mais simples, calculada pela diferença entre o maior e o menor escore?",
-    "options": [
-      "Desvio padrão",
-      "Variância",
-      "Amplitude (ou variação)",
-      "Desvio médio"
-    ],
-    "answer": "Amplitude (ou variação)",
-    "difficulty": "easy"
+    "text": "A soma dos desvios em relação à média é sempre igual a:",
+    "options": ["1", "N", "0", "O desvio padrão"],
+    "answer": "0",
+    "difficulty": "hard"
   },
   {
     "id": "q_26",
-    "text": "Por que a 'Variação Interquartil' (IQR) é considerada mais estável que a amplitude total?",
-    "options": [
-      "Porque inclui todos os escores da amostra.",
-      "Porque foca nos 50% centrais da distribuição, eliminando a influência de valores extremos.",
-      "Porque ela é sempre igual ao dobro da média.",
-      "Porque é calculada apenas em nível nominal."
-    ],
-    "answer": "Porque foca nos 50% centrais da distribuição, eliminando a influência de valores extremos.",
+    "text": "Qual medida deve ser usada para combinar médias de grupos de tamanhos diferentes?",
+    "options": ["Média simples", "Mediana", "Média ponderada", "Moda"],
+    "answer": "Média ponderada",
     "difficulty": "medium"
   },
   {
     "id": "q_27",
-    "text": "Ao calcular a variância, por que os desvios em relação à média são elevados ao quadrado?",
-    "options": [
-      "Para aumentar o valor final e torná-lo mais fácil de ler.",
-      "Para eliminar os sinais negativos, impedindo que a soma dos desvios seja zero.",
-      "Porque é uma regra da geometria aplicada a gráficos.",
-      "Para converter a variância em desvio padrão diretamente."
-    ],
-    "answer": "Para eliminar os sinais negativos, impedindo que a soma dos desvios seja zero.",
-    "difficulty": "hard"
+    "text": "Em uma distribuição perfeitamente simétrica e unimodal, a média e a mediana são:",
+    "options": ["Diferentes", "Opostas", "Idênticas", "Zero"],
+    "answer": "Idênticas",
+    "difficulty": "medium"
   },
   {
     "id": "q_28",
-    "text": "O desvio padrão (s) é definido como:",
-    "options": [
-      "O dobro da variância.",
-      "A raiz quadrada da variância.",
-      "A diferença entre a média e a moda.",
-      "O ponto mais alto da curva normal."
-    ],
-    "answer": "A raiz quadrada da variância.",
-    "difficulty": "easy"
+    "text": "Valores extremamente altos em uma distribuição 'puxam' a média para:",
+    "options": ["Baixo", "Cima", "O centro", "A moda"],
+    "answer": "Cima",
+    "difficulty": "medium"
   },
   {
     "id": "q_29",
-    "text": "Em uma distribuição normal, aproximadamente qual porcentagem dos escores cai dentro de um desvio padrão para cima ou para baixo da média?",
-    "options": [
-      "50%",
-      "68,26%",
-      "95,44%",
-      "99,74%"
-    ],
-    "answer": "68,26%",
-    "difficulty": "medium"
+    "text": "A medida de dispersão baseada na diferença entre o maior e o menor valor é a:",
+    "options": ["Amplitude", "Variância", "Desvio Padrão", "Mediana"],
+    "answer": "Amplitude",
+    "difficulty": "easy"
   },
   {
     "id": "q_30",
-    "text": "Qual das seguintes afirmações sobre o desvio padrão é verdadeira?",
-    "options": [
-      "Quanto menor a variabilidade dos dados, maior o desvio padrão.",
-      "Quanto maior a variabilidade em torno da média, maior o desvio padrão.",
-      "O desvio padrão nunca pode ser comparado entre distribuições diferentes.",
-      "O desvio padrão é uma medida de tendência central."
-    ],
-    "answer": "Quanto maior a variabilidade em torno da média, maior o desvio padrão.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_31",
-    "text": "O 'coeficiente de não determinação' representa qual proporção da variância?",
-    "options": [
-      "A variância explicada pela variável independente.",
-      "A variância que não é explicada pela variável independente.",
-      "A soma total dos quadrados.",
-      "O erro amostral absoluto."
-    ],
-    "answer": "A variância que não é explicada pela variável independente.",
+    "text": "A variância é definida como a média dos:",
+    "options": ["Escores", "Desvios brutos", "Desvios ao quadrado", "Modas"],
+    "answer": "Desvios ao quadrado",
     "difficulty": "hard"
   },
   {
-    "id": "q_32",
-    "text": "Qual o nível de mensuração de variáveis como 'idade' e 'renda' quando medidas em valores exatos e possuindo um zero absoluto real?",
-    "options": [
-      "Nominal",
-      "Ordinal",
-      "Intervalar",
-      "Razão"
-    ],
-    "answer": "Razão",
+    "id": "q_31",
+    "text": "O desvio padrão é a ____ da variância.",
+    "options": ["Metade", "Soma", "Raiz quadrada", "Potência"],
+    "answer": "Raiz quadrada",
     "difficulty": "easy"
   },
   {
-    "id": "q_33",
-    "text": "O que significa dizer que categorias nominais devem ser 'exaustivas'?",
-    "options": [
-      "Que as categorias não devem se sobrepor.",
-      "Que deve haver um lugar ou categoria para cada caso que surgir na pesquisa.",
-      "Que os entrevistados devem estar cansados ao responder.",
-      "Que o pesquisador usou todos os dados disponíveis no arquivo secundário."
-    ],
-    "answer": "Que deve haver um lugar ou categoria para cada caso que surgir na pesquisa.",
+    "id": "q_32",
+    "text": "Qual medida de variabilidade é menos afetada por outliers?",
+    "options": ["Amplitude", "Desvio Padrão", "Intervalo Interquartil", "Variância"],
+    "answer": "Intervalo Interquartil",
     "difficulty": "medium"
   },
   {
+    "id": "q_33",
+    "text": "Uma distribuição muito 'pontuda' ou alta é classificada como:",
+    "options": ["Platicúrtica", "Leptocúrtica", "Mesocúrtica", "Assimétrica"],
+    "answer": "Leptocúrtica",
+    "difficulty": "hard"
+  },
+  {
     "id": "q_34",
-    "text": "Na escala Fahrenheit, o ponto zero é considerado artificial porque:",
-    "options": [
-      "Não indica a ausência total de calor.",
-      "É um nível nominal de medida.",
-      "Varia conforme a umidade do ar.",
-      "É usado apenas em experimentos de laboratório."
-    ],
-    "answer": "Não indica a ausência total de calor.",
+    "text": "A área total sob a curva normal corresponde a:",
+    "options": ["0,50", "1,00", "0,95", "100"],
+    "answer": "1,00",
     "difficulty": "medium"
   },
   {
     "id": "q_35",
-    "text": "Variáveis descontínuas são aquelas que:",
-    "options": [
-      "Apresentam uma gama infinita de valores possíveis.",
-      "Assumem apenas valores específicos, como números inteiros para o tamanho da família.",
-      "Mudam de nível de mensuração constantemente.",
-      "Só podem ser medidas por observação participativa."
-    ],
-    "answer": "Assumem apenas valores específicos, como números inteiros para o tamanho da família.",
+    "text": "Quantos desvios padrão para cada lado abrangem 95,44% da curva normal?",
+    "options": ["1", "2", "3", "1,96"],
+    "answer": "2",
     "difficulty": "medium"
   },
   {
     "id": "q_36",
-    "text": "Qual a principal característica de uma distribuição 'leptocúrtica'?",
-    "options": [
-      "É achatada (platicúrtica).",
-      "É alta ou tem um pico considerável.",
-      "É perfeitamente assimétrica.",
-      "Possui duas modas distintas."
-    ],
-    "answer": "É alta ou tem um pico considerável.",
-    "difficulty": "hard"
+    "text": "O escore z indica a distância de um valor em relação à média em unidades de:",
+    "options": ["Amplitude", "N", "Desvio padrão", "Erro"],
+    "answer": "Desvio padrão",
+    "difficulty": "easy"
   },
   {
     "id": "q_37",
-    "text": "O que determina a direção da assimetria em uma distribuição?",
-    "options": [
-      "A altura do pico central.",
-      "A posição da cauda alongada da curva.",
-      "A média aritmética exata.",
-      "O número total de casos (N)."
-    ],
-    "answer": "A posição da cauda alongada da curva.",
+    "text": "A probabilidade de um evento certo é:",
+    "options": ["0", "0,5", "1", "0,1"],
+    "answer": "1",
     "difficulty": "easy"
   },
   {
     "id": "q_38",
-    "text": "A mediana corresponde a qual classificação percentual?",
-    "options": [
-      "Percentil 25.",
-      "Percentil 50.",
-      "Percentil 75.",
-      "Percentil 100."
-    ],
-    "answer": "Percentil 50.",
-    "difficulty": "easy"
+    "text": "Eventos que não podem ocorrer ao mesmo tempo são:",
+    "options": ["Independentes", "Mutuamente exclusivos", "Contínuos", "Assimétricos"],
+    "answer": "Mutuamente exclusivos",
+    "difficulty": "medium"
   },
   {
     "id": "q_39",
-    "text": "No gráfico box-plot, o quadro retangular central representa qual intervalo da distribuição?",
-    "options": [
-      "A amplitude total dos dados.",
-      "O intervalo entre um desvio padrão acima e abaixo da média.",
-      "O intervalo entre o primeiro e o terceiro quartis (Q1 a Q3).",
-      "Apenas o valor da moda e da média combinados."
-    ],
-    "answer": "O intervalo entre o primeiro e o terceiro quartis (Q1 a Q3).",
-    "difficulty": "hard"
+    "text": "A probabilidade de dois eventos independentes ocorrerem juntos é o ____ de suas probabilidades.",
+    "options": ["Soma", "Produto", "Quociente", "Diferença"],
+    "answer": "Produto",
+    "difficulty": "medium"
   },
   {
     "id": "q_40",
-    "text": "O 'desvio' em estatística indica:",
-    "options": [
-      "A soma total de quadrados dividida pelo erro.",
-      "A distância e a direção de um escore bruto em relação à média.",
-      "Uma falha na coleta de dados primários.",
-      "A diferença entre a amostra e o grupo de controle."
-    ],
-    "answer": "A distância e a direção de um escore bruto em relação à média.",
+    "text": "O Erro Amostral é a diferença entre a estatística da amostra e o:",
+    "options": ["N", "Escore z", "Parâmetro populacional", "Desvio"],
+    "answer": "Parâmetro populacional",
     "difficulty": "medium"
   },
   {
     "id": "q_41",
-    "text": "Qual das seguintes fontes de dados é considerada um site do governo norte-americano para ciências sociais?",
-    "options": [
-      "Playboy.com",
-      "FEDSTATS",
-      "Nielsen Media Research",
-      "Amazon.com"
-    ],
-    "answer": "FEDSTATS",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_42",
-    "text": "Hipóteses em ciências sociais são frequentemente expressas como uma relação entre:",
-    "options": [
-      "Duas constantes invariáveis.",
-      "Uma variável independente e uma variável dependente.",
-      "Apenas observações participativas discretas.",
-      "Gráficos em setores e histogramas."
-    ],
-    "answer": "Uma variável independente e uma variável dependente.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_43",
-    "text": "Qual o resultado de somar todos os desvios brutos em relação à média sem elevá-los ao quadrado?",
-    "options": [
-      "O valor da variância.",
-      "Zero.",
-      "O desvio padrão da amostra.",
-      "O erro padrão estimado."
-    ],
-    "answer": "Zero.",
+    "text": "A média da distribuição amostral das médias é igual à:",
+    "options": ["Mediana", "Variância", "Média populacional", "Amplitude"],
+    "answer": "Média populacional",
     "difficulty": "hard"
   },
   {
+    "id": "q_42",
+    "text": "O desvio padrão da distribuição amostral é chamado de:",
+    "options": ["Desvio padrão bruto", "Erro Padrão", "Variância relativa", "Z"],
+    "answer": "Erro Padrão",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_43",
+    "text": "Conforme o tamanho da amostra (N) aumenta, o erro padrão:",
+    "options": ["Aumenta", "Diminui", "Fica estável", "Vira zero"],
+    "answer": "Diminui",
+    "difficulty": "medium"
+  },
+  {
     "id": "q_44",
-    "text": "Uma taxa como a de mortalidade infantil é frequentemente calculada com base em quantos casos em potencial?",
-    "options": [
-      "100 casos.",
-      "1.000 casos.",
-      "10.000 casos.",
-      "Apenas per capita (1 caso)."
-    ],
-    "answer": "1.000 casos.",
+    "text": "Um intervalo de confiança de 95% usa qual valor crítico de z?",
+    "options": ["1,00", "1,65", "1,96", "2,58"],
+    "answer": "1,96",
     "difficulty": "medium"
   },
   {
     "id": "q_45",
-    "text": "O que caracteriza uma distribuição 'bimodal'?",
-    "options": [
-      "Uma curva sem nenhum pico de frequência.",
-      "Uma curva com dois pontos de frequência máxima.",
-      "Uma curva onde a média é igual ao zero.",
-      "Uma curva perfeitamente plana."
-    ],
-    "answer": "Uma curva com dois pontos de frequência máxima.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "q_46",
-    "text": "No cálculo da variância de uma distribuição de frequência simples, o que representa fX²?",
-    "options": [
-      "A soma das frequências multiplicada pelo erro quadrado.",
-      "O produto do valor do escore ao quadrado por sua frequência.",
-      "O quadrado da média total.",
-      "O limite real superior do intervalo."
-    ],
-    "answer": "O produto do valor do escore ao quadrado por sua frequência.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_47",
-    "text": "A regra de arredondamento sugerida no livro orienta arredondar a resposta final para:",
-    "options": [
-      "Um número inteiro.",
-      "Dois algarismos decimais a mais do que os contidos nos resultados originais.",
-      "Apenas uma casa decimal.",
-      "Tantos dígitos quanto a calculadora permitir."
-    ],
-    "answer": "Dois algarismos decimais a mais do que os contidos nos resultados originais.",
+    "text": "Para 99% de confiança, o valor de z é aproximadamente:",
+    "options": ["1,96", "2,58", "3,00", "1,65"],
+    "answer": "2,58",
     "difficulty": "medium"
   },
   {
-    "id": "q_48",
-    "text": "A unidade de observação em um estudo sobre a taxa de criminalidade em regiões metropolitanas é:",
-    "options": [
-      "Pessoas individuais.",
-      "Áreas metropolitanas.",
-      "A polícia local.",
-      "A variável independente."
-    ],
-    "answer": "Áreas metropolitanas.",
-    "difficulty": "easy"
+    "id": "q_46",
+    "text": "A distribuição t de Student é usada quando o desvio padrão populacional é:",
+    "options": ["Conhecido", "Desconhecido", "Zero", "Um"],
+    "answer": "Desconhecido",
+    "difficulty": "medium"
   },
   {
-    "id": "q_49",
-    "text": "O que indica o 'valor esperado' em uma distribuição de probabilidade?",
-    "options": [
-      "A variância populacional futura.",
-      "A média da distribuição de probabilidade.",
-      "A chance de cometer um erro tipo II.",
-      "O ponto mais alto de um histograma."
-    ],
-    "answer": "A média da distribuição de probabilidade.",
+    "id": "q_47",
+    "text": "O Teorema do Limite Central afirma que para N grande, a distribuição das médias será:",
+    "options": ["Assimétrica", "Bimodal", "Normal", "Uniforme"],
+    "answer": "Normal",
     "difficulty": "hard"
   },
   {
+    "id": "q_48",
+    "text": "Uma amostragem que divide a população em camadas (ex: faixas etárias) é a:",
+    "options": ["Aleatória simples", "Sistemática", "Estratificada", "Por cota"],
+    "answer": "Estratificada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_49",
+    "text": "Na amostragem sistemática, seleciona-se cada ____ elemento da lista.",
+    "options": ["Primeiro", "Último", "Enésimo", "Aleatório"],
+    "answer": "Enésimo",
+    "difficulty": "medium"
+  },
+  {
     "id": "q_50",
-    "text": "Se a média é de 60,5 e o desvio padrão é de 5, qual escore bruto estaria exatamente 2 desvios padrão acima da média?",
-    "options": [
-      "65,5",
-      "70,5",
-      "50,5",
-      "121,0"
-    ],
-    "answer": "70,5",
+    "text": "Qual nível de mensuração permite apenas a moda como tendência central?",
+    "options": ["Intervalar", "Ordinal", "Nominal", "Razão"],
+    "answer": "Nominal",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_51",
+    "text": "O que indica um escore z negativo?",
+    "options": ["Erro de cálculo", "Valor acima da média", "Valor abaixo da média", "Variância negativa"],
+    "answer": "Valor abaixo da média",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_52",
+    "text": "O intervalo entre Q1 e Q3 contém que porcentagem dos casos?",
+    "options": ["25%", "50%", "75%", "100%"],
+    "answer": "50%",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_53",
+    "text": "Ao adotar a convenção para comparar o efeito da causa sobre o resultado em uma tabulação cruzada, a variável independente geralmente fica nas:",
+    "options": ["Linhas", "Colunas", "Margens", "Células centrais"],
+    "answer": "Colunas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_54",
+    "text": "A probabilidade do complemento de um evento A é:",
+    "options": ["P(A)", "1 + P(A)", "1 - P(A)", "P(A) / 2"],
+    "answer": "1 - P(A)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_55",
+    "text": "Qual medida de dispersão é a raiz quadrada da variância?",
+    "options": ["Amplitude", "Média", "Desvio Padrão", "Escore z"],
+    "answer": "Desvio Padrão",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_56",
+    "text": "A regra da adição é usada para eventos:",
+    "options": ["Independentes", "Mutuamente exclusivos", "Contínuos", "Sempre zero"],
+    "answer": "Mutuamente exclusivos",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_57",
+    "text": "Se z = 0, o valor bruto X é:",
+    "options": ["Igual a 1", "Igual à média", "Igual ao desvio padrão", "Zero"],
+    "answer": "Igual à média",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_58",
+    "text": "O termo 'Graus de Liberdade' na distribuição t é calculado como:",
+    "options": ["N", "N + 1", "N - 1", "N / 2"],
+    "answer": "N - 1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_59",
+    "text": "Qual é a probabilidade de tirar um '6' em um dado comum?",
+    "options": ["1/2", "1/4", "1/6", "1/12"],
+    "answer": "1/6",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_60",
+    "text": "A mediana é o ____ percentil.",
+    "options": ["25º", "50º", "75º", "100º"],
+    "answer": "50º",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_61",
+    "text": "O desvio padrão da amostra é simbolizado por:",
+    "options": ["sigma", "s", "mu", "z"],
+    "answer": "s",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_62",
+    "text": "O desvio padrão da população é simbolizado por:",
+    "options": ["s", "z", "sigma", "X"],
+    "answer": "sigma",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_63",
+    "text": "Em uma curva normal, a maioria dos casos concentra-se no:",
+    "options": ["Lado esquerdo", "Lado direito", "Centro", "Nas caudas"],
+    "answer": "Centro",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_64",
+    "text": "Qual medida de variabilidade usa apenas dois escores?",
+    "options": ["Desvio padrão", "Amplitude", "Variância", "IQR"],
+    "answer": "Amplitude",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_65",
+    "text": "Para calcular o desvio padrão da média (Erro Padrão), dividimos sigma por:",
+    "options": ["N", "Raiz de N", "N-1", "2"],
+    "answer": "Raiz de N",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_66",
+    "text": "Em termos de unidades de medida estatística, o escore z é expresso em:",
+    "options": ["Metros ou gramas", "Proporções decimais", "Desvios padrão", "Apenas números inteiros"],
+    "answer": "Desvios padrão",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_67",
+    "text": "Uma distribuição 'platicúrtica' é mais ____ que a normal.",
+    "options": ["Alta", "Achatada", "Assimétrica", "Bimodal"],
+    "answer": "Achatada",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_68",
+    "text": "A frequência esperada no lançamento de uma moeda justa para 'cara' é:",
+    "options": ["0,25", "0,50", "0,75", "1,00"],
+    "answer": "0,50",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_69",
+    "text": "A probabilidade de um evento impossível é:",
+    "options": ["1", "0,5", "0", "-1"],
+    "answer": "0",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_70",
+    "text": "A amostragem por cota é um método:",
+    "options": ["Aleatório", "Não aleatório", "Sistemático", "Estratificado"],
+    "answer": "Não aleatório",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_71",
+    "text": "Na curva normal, z = 1,96 corta ____% da área em cada cauda.",
+    "options": ["5%", "2,5%", "1%", "10%"],
+    "answer": "2,5%",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_72",
+    "text": "O valor da variância é sempre:",
+    "options": ["Negativo", "Zero", "Não negativo", "Menor que 1"],
+    "answer": "Não negativo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_73",
+    "text": "O que acontece com o intervalo de confiança se aumentamos o nível de 95% para 99%?",
+    "options": ["Estreita", "Alarga", "Soma", "Fica igual"],
+    "answer": "Alarga",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_74",
+    "text": "A média de escores z de qualquer distribuição é sempre:",
+    "options": ["1", "0", "N", "sigma"],
+    "answer": "0",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_75",
+    "text": "O desvio padrão de escores z de qualquer distribuição é sempre:",
+    "options": ["0", "1", "N", "mu"],
+    "answer": "1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_76",
+    "text": "Sempre que possível e razoável, pesquisadores tratam variáveis ordinais como intervalares se elas apresentarem:",
+    "options": ["Frequências baixas", "Valores espaçados uniformemente", "Assimetria severa", "Pico duplo"],
+    "answer": "Valores espaçados uniformemente",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_77",
+    "text": "Qual medida é o quadrado do desvio padrão?",
+    "options": ["Média", "Variância", "Amplitude", "Z"],
+    "answer": "Variância",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_78",
+    "text": "Na curva normal, 99,74% dos casos estão entre ____ desvios padrão.",
+    "options": ["+/- 1", "+/- 2", "+/- 3", "+/- 1,96"],
+    "answer": "+/- 3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_79",
+    "text": "A soma das proporções em uma tabela de frequência é:",
+    "options": ["100", "N", "1", "0"],
+    "answer": "1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_80",
+    "text": "O erro padrão mede a variabilidade das:",
+    "options": ["Amostras individuais", "Médias amostrais", "Populações", "Modas"],
+    "answer": "Médias amostrais",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_81",
+    "text": "A mediana é a melhor tendência central para distribuições:",
+    "options": ["Simétricas", "Normais", "Muito assimétricas", "Unimodais"],
+    "answer": "Muito assimétricas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_82",
+    "text": "Se a variância é 25, o desvio padrão é:",
+    "options": ["5", "10", "50", "625"],
+    "answer": "5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_83",
+    "text": "A probabilidade de 'não A' é 0,7. Logo, P(A) é:",
+    "options": ["0,7", "1,0", "0,3", "0,5"],
+    "answer": "0,3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_84",
+    "text": "O gráfico em setores é ideal para dados:",
+    "options": ["Intervalares", "Contínuos", "Nominais", "Assimétricos"],
+    "answer": "Nominais",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_85",
+    "text": "Escore z de 2,0 significa que o valor está 2 ____ acima da média.",
+    "options": ["Unidades", "Pontos", "Desvios padrão", "Percentis"],
+    "answer": "Desvios padrão",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_86",
+    "text": "A curva normal é simétrica em relação à:",
+    "options": ["Moda", "Média", "Amplitude", "Frequência"],
+    "answer": "Média",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_87",
+    "text": "O Teorema do Limite Central exige que N seja geralmente maior que:",
+    "options": ["10", "20", "30", "100"],
+    "answer": "30",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_88",
+    "text": "A amostragem aleatória simples exige uma ____ da população.",
+    "options": ["Média", "Variância", "Lista completa", "Amostra prévia"],
+    "answer": "Lista completa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_89",
+    "text": "O intervalo de confiança fornece uma estimativa:",
+    "options": ["Pontual", "Por intervalo", "Exata", "Certa"],
+    "answer": "Por intervalo",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_90",
+    "text": "A variância populacional é simbolizada por:",
+    "options": ["s^2", "sigma^2", "mu", "X^2"],
+    "answer": "sigma^2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_91",
+    "text": "A escala Kelvin de temperatura tem um zero ____.",
+    "options": ["Artificial", "Absoluto", "Nominal", "Inexistente"],
+    "answer": "Absoluto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_92",
+    "text": "Qual medida de tendência central é o escore do meio?",
+    "options": ["Média", "Moda", "Mediana", "Amplitude"],
+    "answer": "Mediana",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_93",
+    "text": "Em um histograma com intervalos de classe iguais, a frequência de cada categoria é representada pela:",
+    "options": ["Largura da barra", "Altura da barra", "Soma das barras", "Diagonal da barra"],
+    "answer": "Altura da barra",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_94",
+    "text": "Um escore z de -3,0 é considerado um valor:",
+    "options": ["Médio", "Típico", "Extremo", "Incorreto"],
+    "answer": "Extremo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_95",
+    "text": "A probabilidade de tirar 'coroa' em uma moeda justa é:",
+    "options": ["0", "0,5", "1", "0,25"],
+    "answer": "0,5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_96",
+    "text": "A distribuição amostral das médias tende a ser ____.",
+    "options": ["Assimétrica", "Bimodal", "Normal", "Uniforme"],
+    "answer": "Normal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_97",
+    "text": "A unidade base da estatística inferencial é a ____.",
+    "options": ["População", "Amostra", "Variável", "Constante"],
+    "answer": "Amostra",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_98",
+    "text": "Qual valor de z deixa 5% de área na cauda direita?",
+    "options": ["1,96", "1,65", "2,58", "1,00"],
+    "answer": "1,65",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_99",
+    "text": "O desvio padrão mede a dispersão em torno da ____.",
+    "options": ["Moda", "Mediana", "Média", "Amplitude"],
+    "answer": "Média",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_100",
+    "text": "Qual medida é afetada por todos os escores da distribuição?",
+    "options": ["Moda", "Mediana", "Média", "Amplitude"],
+    "answer": "Média",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_101",
+    "text": "Devido à sua simetria, qual medida de posição central corresponde ao percentil 50 na curva normal?",
+    "options": ["Variância", "Média e Mediana", "Apenas a Moda", "Amplitude"],
+    "answer": "Média e Mediana",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_102",
+    "text": "O desvio padrão é expresso na ____ unidade dos dados brutos.",
+    "options": ["Quadrada", "Mesma", "Inversa", "Diferente"],
+    "answer": "Mesma",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_103",
+    "text": "Se a média é 10 e X é 15, o desvio (X - média) é:",
+    "options": ["-5", "5", "0", "15"],
+    "answer": "5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_104",
+    "text": "Qual gráfico conecta os limites superiores com frequências acumuladas?",
+    "options": ["Histograma", "Polígono simples", "Ogiva", "Pizza"],
+    "answer": "Ogiva",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_105",
+    "text": "A probabilidade de tirar um '7' em um dado comum é:",
+    "options": ["1/6", "1", "0", "0,5"],
+    "answer": "0",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_106",
+    "text": "Uma amostra acidental baseia-se na ____.",
+    "options": ["Aleatoriedade", "Conveniência", "Estratificação", "Sistemática"],
+    "answer": "Conveniência",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_107",
+    "text": "O nível de mensuração intervalar não possui zero ____.",
+    "options": ["Artificial", "Relativo", "Absoluto", "Numérico"],
+    "answer": "Absoluto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_108",
+    "text": "A amplitude interquartil abrange os ____% centrais.",
+    "options": ["25", "50", "75", "100"],
+    "answer": "50",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_109",
+    "text": "O escore z para a média é sempre ____.",
+    "options": ["1", "-1", "0", "N"],
+    "answer": "0",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_110",
+    "text": "Para calcular o intervalo de confiança, usa-se a média +/- ____.",
+    "options": ["Amplitude", "Moda", "Margem de erro", "N"],
+    "answer": "Margem de erro",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_111",
+    "text": "A curva normal é também chamada de curva de ____.",
+    "options": ["Pearson", "Student", "Gauss", "Spearman"],
+    "answer": "Gauss",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_112",
+    "text": "A soma das porcentagens em uma distribuição é sempre ____.",
+    "options": ["1", "N", "100", "50"],
+    "answer": "100",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_113",
+    "text": "Qual medida divide os dados em quatro partes?",
+    "options": ["Decis", "Quartis", "Percentis", "Z"],
+    "answer": "Quartis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_114",
+    "text": "O erro padrão reflete o ____ da distribuição amostral.",
+    "options": ["Pico", "Centro", "Desvio padrão", "Erro humano"],
+    "answer": "Desvio padrão",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_115",
+    "text": "Escore z de 0 significa que o valor está na ____.",
+    "options": ["Base", "Ponta", "Média", "Variância"],
+    "answer": "Média",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_116",
+    "text": "Qual distribuição é mais 'achatada' que a normal?",
+    "options": ["Leptocúrtica", "Platicúrtica", "Mesocúrtica", "Bimodal"],
+    "answer": "Platicúrtica",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_117",
+    "text": "A probabilidade é sempre um valor entre ____ e ____.",
+    "options": ["-1 e 1", "0 e N", "0 e 1", "1 e 100"],
+    "answer": "0 e 1",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_118",
+    "text": "Qual nível de mensuração usa apenas nomes como categorias?",
+    "options": ["Razão", "Intervalar", "Nominal", "Ordinal"],
+    "answer": "Nominal",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_119",
+    "text": "A mediana de 1, 2, 10 é ____.",
+    "options": ["1", "10", "2", "4,3"],
+    "answer": "2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_120",
+    "text": "A média de 1, 2, 3 é ____.",
+    "options": ["1", "3", "2", "6"],
+    "answer": "2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_121",
+    "text": "O escore z transforma escores em unidades ____.",
+    "options": ["Métricas", "Absolutas", "Padronizadas", "Relativas"],
+    "answer": "Padronizadas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_122",
+    "text": "A distribuição amostral baseia-se em ____ amostras.",
+    "options": ["Uma única", "Duas", "Infinitas", "Nenhuma"],
+    "answer": "Infinitas",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_123",
+    "text": "O valor de z para 95% de confiança (bilateral) é ____.",
+    "options": ["1,65", "2,58", "1,96", "1,00"],
+    "answer": "1,96",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_124",
+    "text": "A variância é simbolizada por ____ para amostras.",
+    "options": ["sigma", "s", "s^2", "X"],
+    "answer": "s^2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_125",
+    "text": "Qual medida de variabilidade é a mais simples?",
+    "options": ["Desvio padrão", "Variância", "Amplitude", "IQR"],
+    "answer": "Amplitude",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_126",
+    "text": "Escore z = 1,00 abrange ____% da área entre ele e a média.",
+    "options": ["50%", "34,13%", "68,26%", "95%"],
+    "answer": "34,13%",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_127",
+    "text": "A moda de 5, 5, 2, 3, 1 é ____.",
+    "options": ["1", "2", "5", "3"],
+    "answer": "5",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_128",
+    "text": "O que indica uma assimetria positiva?",
+    "options": ["Cauda esquerda", "Cauda direita", "Sem cauda", "Pico duplo"],
+    "answer": "Cauda direita",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_129",
+    "text": "Nível de escolaridade (fundamental, médio, superior) é ____.",
+    "options": ["Nominal", "Intervalar", "Ordinal", "Razão"],
+    "answer": "Ordinal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_130",
+    "text": "Qual valor de z corta 2,5% em cada cauda?",
+    "options": ["1,65", "2,58", "1,96", "3,00"],
+    "answer": "1,96",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_131",
+    "text": "A probabilidade de tirar um número par em um dado é ____.",
+    "options": ["1/6", "1/2", "2/6", "1"],
+    "answer": "1/2",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_132",
+    "text": "Ao utilizar limites reais (ex: 9,5 a 14,5), qual a amplitude de um intervalo de classe 10–14?",
+    "options": ["4", "10", "5", "14"],
+    "answer": "5",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_133",
+    "text": "A média da população é simbolizada por ____.",
+    "options": ["X", "s", "mu", "sigma"],
+    "answer": "mu",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_134",
+    "text": "O desvio padrão da amostra usa ____ no denominador.",
+    "options": ["N", "N+1", "N-1", "N^2"],
+    "answer": "N-1",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_135",
+    "text": "Para N < 30, a distribuição t é mais ____ que a normal.",
+    "options": ["Alta", "Estreita", "Larga/dispersa", "Assimétrica"],
+    "answer": "Larga/dispersa",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_136",
+    "text": "A probabilidade condicional de A dado B é P(A|B).",
+    "options": ["Falso", "Sempre 1", "Verdadeiro", "Apenas para moedas"],
+    "answer": "Verdadeiro",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_137",
+    "text": "O 75º percentil é o ____ quartil.",
+    "options": ["1º", "2º", "3º", "4º"],
+    "answer": "3º",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_138",
+    "text": "A curva normal padrão tem variância igual a ____.",
+    "options": ["0", "mu", "1", "sigma"],
+    "answer": "1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_139",
+    "text": "Qual medida de dispersão usa desvios absolutos?",
+    "options": ["Variância", "Desvio padrão", "Desvio médio", "Amplitude"],
+    "answer": "Desvio médio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_140",
+    "text": "A soma de (X - média)^2 é a ____.",
+    "options": ["Variância", "Soma de quadrados", "Média", "Desvio"],
+    "answer": "Soma de quadrados",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_141",
+    "text": "O percentil 25 é o ____ quartil.",
+    "options": ["1º", "2º", "3º", "4º"],
+    "answer": "1º",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_142",
+    "text": "Uma distribuição bimodal tem ____ picos.",
+    "options": ["1", "3", "2", "0"],
+    "answer": "2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_143",
+    "text": "Qual medida de tendência central é afetada por extremos?",
+    "options": ["Moda", "Mediana", "Média", "Nenhuma"],
+    "answer": "Média",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_144",
+    "text": "Escore z de -1,96 deixa ____% de área abaixo dele.",
+    "options": ["5%", "2,5%", "95%", "50%"],
+    "answer": "2,5%",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_145",
+    "text": "Qual gráfico usa círculos de 360 graus?",
+    "options": ["Histograma", "Polígono", "Setores/Pizza", "Barras"],
+    "answer": "Setores/Pizza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_146",
+    "text": "A amostragem aleatória busca evitar ____.",
+    "options": ["Variáveis", "Viés de seleção", "Médias", "N"],
+    "answer": "Viés de seleção",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_147",
+    "text": "O desvio padrão é simbolizado por ____ para amostras.",
+    "options": ["s^2", "sigma", "s", "mu"],
+    "answer": "s",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_148",
+    "text": "A média é a medida mais ____ de tendência central.",
+    "options": ["Instável", "Simples", "Estável/Precisa", "Nominal"],
+    "answer": "Estável/Precisa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_149",
+    "text": "Um escore z de 3,0 está a 3 desvios ____ da média.",
+    "options": ["Abaixo", "No centro", "Acima", "Longe"],
+    "answer": "Acima",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_150",
+    "text": "A probabilidade de A ou B ocorrerem (mutuamente exclusivos) é a ____.",
+    "options": ["Diferença", "Produto", "Soma", "Média"],
+    "answer": "Soma",
     "difficulty": "medium"
   }
 ]
