@@ -1,602 +1,1202 @@
 [
   {
-    "id": "q_1",
-    "text": "Por que o uso de múltiplos testes t para comparar três ou mais médias é evitado em favor da ANOVA?",
+    "id": "q_01",
+    "text": "Qual é o objetivo de um teste de hipóteses para comparação de médias?",
     "options": [
-      "Porque o teste t perde a sensibilidade em amostras com N superior a 30.",
-      "Porque ele infla o erro Tipo I, elevando a probabilidade de falso-positivo global.",
-      "Porque a variância residual torna-se negativa em delineamentos multivariados.",
-      "Porque o teste t pressupõe que as médias populacionais são obrigatoriamente zero."
+      "Calcular o desvio padrão populacional a partir de uma única observação",
+      "Avaliar se a diferença observada entre médias amostrais é improvável sob a hipótese nula",
+      "Provar matematicamente que duas populações são idênticas",
+      "Estimar o tamanho da amostra necessário para qualquer pesquisa"
     ],
-    "answer": "Porque ele infla o erro Tipo I, elevando a probabilidade de falso-positivo global.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_2",
-    "text": "Qual a principal vantagem metodológica do delineamento de Medidas Repetidas?",
-    "options": [
-      "Garante a independência total entre as observações de diferentes condições.",
-      "Reduz o erro residual ao isolar a variabilidade devida a diferenças individuais.",
-      "Dispensa a necessidade de testar a normalidade dos resíduos do modelo.",
-      "Permite o uso de variáveis dependentes medidas apenas em nível nominal."
-    ],
-    "answer": "Reduz o erro residual ao isolar a variabilidade devida a diferenças individuais.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_3",
-    "text": "O que caracteriza o pressuposto de Esfericidade em uma ANOVA de Medidas Repetidas?",
-    "options": [
-      "A exigência de que a variância do erro seja constante entre os diferentes grupos.",
-      "A similaridade entre as variâncias das diferenças entre todos os pares de condições.",
-      "A garantia de que não existam correlações entre as variáveis dependentes e independentes.",
-      "A necessidade de que a amostra apresente um formato perfeitamente leptocúrtico."
-    ],
-    "answer": "A similaridade entre as variâncias das diferenças entre todos os pares de condições.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_4",
-    "text": "Em uma ANOVA de um fator com 5 grupos (k=5) e 50 participantes (N=50), quais os Graus de Liberdade (gl) do Modelo e do Resíduo?",
-    "options": [
-      "gl(Modelo) = 5; gl(Resíduo) = 50",
-      "gl(Modelo) = 4; gl(Resíduo) = 45",
-      "gl(Modelo) = 49; gl(Resíduo) = 5",
-      "gl(Modelo) = 1; gl(Resíduo) = 48"
-    ],
-    "answer": "gl(Modelo) = 4; gl(Resíduo) = 45",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_5",
-    "text": "O que o coeficiente Ômega ao Quadrado (ω²) representa no contexto da ANOVA?",
-    "options": [
-      "A probabilidade de que a hipótese nula seja mantida em amostras independentes.",
-      "A estimativa não-enviesada da proporção da variância total explicada pelo modelo.",
-      "O nível de esfericidade dos dados calculado a partir do teste de Mauchly.",
-      "O valor crítico de F necessário para atingir uma significância de p < 0,05."
-    ],
-    "answer": "A estimativa não-enviesada da proporção da variância total explicada pelo modelo.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_6",
-    "text": "Na ANOVA Fatorial, como é composta a partição da variância sistemática (SSM)?",
-    "options": [
-      "Apenas pela soma dos efeitos principais de cada variável independente.",
-      "Pela soma dos efeitos principais e do efeito de interação entre os fatores.",
-      "Pela subtração da variância residual (SSR) da variância entre-sujeitos.",
-      "Pela multiplicação dos graus de liberdade pelo erro quadrático médio."
-    ],
-    "answer": "Pela soma dos efeitos principais e do efeito de interação entre os fatores.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_7",
-    "text": "Em uma ANCOVA, qual é a condição fundamental para que a covariável seja incluída no modelo?",
-    "options": [
-      "Deve ser uma variável categórica com mais de três níveis independentes.",
-      "Deve ser linearmente relacionada à variável dependente para reduzir o erro.",
-      "Deve ser altamente correlacionada com a variável independente principal.",
-      "Deve ser testada utilizando o procedimento não-paramétrico de Friedman."
-    ],
-    "answer": "Deve ser linearmente relacionada à variável dependente para reduzir o erro.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q_8",
-    "text": "O que o pressuposto de 'Homogeneidade das Inclinações de Regressão' exige na ANCOVA?",
-    "options": [
-      "Que as variâncias dos erros sejam idênticas entre os níveis do fator.",
-      "Que a relação entre a covariável e a dependente seja igual em todos os grupos.",
-      "Que os resíduos do modelo sigam uma distribuição normal multivariada.",
-      "Que o teste de Levene apresente um valor de p inferior a 0,05."
-    ],
-    "answer": "Que a relação entre a covariável e a dependente seja igual em todos os grupos.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_9",
-    "text": "Qual a principal diferença estrutural entre a ANOVA e a MANOVA?",
-    "options": [
-      "A ANOVA lida com fatores fixos; a MANOVA foca apenas em fatores aleatórios.",
-      "A ANOVA avalia uma variável dependente; a MANOVA avalia múltiplas simultaneamente.",
-      "A ANOVA exige homogeneidade de variância; a MANOVA ignora esse pressuposto.",
-      "A ANOVA usa a estatística de Pillai; a MANOVA usa exclusivamente a estatística F."
-    ],
-    "answer": "A ANOVA avalia uma variável dependente; a MANOVA avalia múltiplas simultaneamente.",
+    "answer": "Avaliar se a diferença observada entre médias amostrais é improvável sob a hipótese nula",
     "difficulty": "easy"
   },
   {
-    "id": "q_10",
-    "text": "Quando um pesquisador deve optar pela MANCOVA em vez de uma MANOVA simples?",
+    "id": "q_02",
+    "text": "O que afirma a hipótese nula (H₀) em uma comparação de dois grupos?",
     "options": [
-      "Sempre que o número de variáveis dependentes for superior a cinco.",
-      "Quando há necessidade de controlar o efeito de covariáveis em desfechos múltiplos.",
-      "Quando o pressuposto de esfericidade é violado em delineamentos entre-sujeitos.",
-      "Quando os dados são puramente ordinais e o Qui-quadrado não é aplicável."
+      "Que as médias populacionais são necessariamente diferentes",
+      "Que não há diferença entre as médias das populações comparadas",
+      "Que o Erro Tipo I é impossível nesse delineamento",
+      "Que a variância amostral é sempre o dobro da populacional"
     ],
-    "answer": "Quando há necessidade de controlar o efeito de covariáveis em desfechos múltiplos.",
+    "answer": "Que não há diferença entre as médias das populações comparadas",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_03",
+    "text": "Qual teste t é apropriado para comparar o desempenho dos mesmos guerreiros antes e depois de um ritual de treinamento?",
+    "options": [
+      "Teste t para amostras independentes",
+      "Teste t pareado (amostras dependentes)",
+      "ANOVA de um fator entre-sujeitos",
+      "Qui-quadrado de independência"
+    ],
+    "answer": "Teste t pareado (amostras dependentes)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_04",
+    "text": "Se dois clãs independentes com 15 guerreiros cada são comparados via teste t, qual o gl?",
+    "options": [
+      "30",
+      "29",
+      "28",
+      "14"
+    ],
+    "answer": "28",
     "difficulty": "medium"
   },
   {
-    "id": "q_11",
-    "text": "O Teste de Box (M) é utilizado na MANOVA para verificar qual condição?",
+    "id": "q_05",
+    "text": "Em um teste t pareado com 25 guerreiros medidos em dois momentos, qual o gl?",
     "options": [
-      "A normalidade univariada de cada variável dependente isolada.",
-      "A igualdade das matrizes de covariância entre os diferentes grupos.",
-      "A independência dos erros calculada pelo teste de Durbin-Watson.",
-      "O ajuste do modelo linear em relação à média geral da amostra."
+      "25",
+      "24",
+      "49",
+      "48"
     ],
-    "answer": "A igualdade das matrizes de covariância entre os diferentes grupos.",
+    "answer": "24",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_06",
+    "text": "Qual pressuposto do teste t independente é avaliado pelo Teste de Levene?",
+    "options": [
+      "Normalidade dos resíduos em cada grupo",
+      "Homogeneidade de variâncias entre os dois grupos",
+      "Independência das observações dentro de cada grupo",
+      "Linearidade da relação entre VI e VD"
+    ],
+    "answer": "Homogeneidade de variâncias entre os dois grupos",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_07",
+    "text": "Quando o Teste de Levene é significativo (p < 0,05), qual alternativa ao teste t clássico é recomendada?",
+    "options": [
+      "Aumentar o N até Levene ficar não-significativo",
+      "Aplicar o teste t de Welch, que não assume variâncias iguais",
+      "Trocar para uma ANOVA de um fator com 2 grupos",
+      "Remover os outliers até as variâncias se igualarem"
+    ],
+    "answer": "Aplicar o teste t de Welch, que não assume variâncias iguais",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_08",
+    "text": "Por que o teste t pareado tende a ser mais poderoso que o independente para o mesmo número total de observações?",
+    "options": [
+      "Porque duplica artificialmente o tamanho da amostra",
+      "Porque remove a variabilidade individual ao usar os mesmos sujeitos como controle próprio",
+      "Porque não exige o pressuposto de normalidade",
+      "Porque sempre produz valores de t maiores que 2"
+    ],
+    "answer": "Porque remove a variabilidade individual ao usar os mesmos sujeitos como controle próprio",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_09",
+    "text": "Um pesquisador encontrou t(28) = 2.45, p = 0,021 comparando dois clãs. Qual a interpretação correta do p-valor?",
+    "options": [
+      "Há 2,1% de chance de que a diferença entre os clãs seja real",
+      "Se não houvesse diferença real entre os clãs, a probabilidade de obter um t tão extremo seria 2,1%",
+      "O tamanho de efeito é de 0,021, considerado pequeno",
+      "A hipótese nula é verdadeira com 97,9% de certeza"
+    ],
+    "answer": "Se não houvesse diferença real entre os clãs, a probabilidade de obter um t tão extremo seria 2,1%",
     "difficulty": "hard"
   },
   {
-    "id": "q_12",
-    "text": "Na ANOVA de Medidas Repetidas, qual correção de gl é a mais conservadora em caso de violação de esfericidade?",
+    "id": "q_10",
+    "text": "O Erro Tipo I ocorre quando o pesquisador:",
     "options": [
-      "Huynh-Feldt",
-      "Greenhouse-Geisser",
-      "Bonferroni",
-      "Sidak"
+      "Rejeita a hipótese nula quando ela é de fato verdadeira (falso positivo)",
+      "Não rejeita a hipótese nula quando ela é de fato falsa (falso negativo)",
+      "Calcula incorretamente os graus de liberdade do teste",
+      "Usa um nível de significância maior que 0,10"
     ],
-    "answer": "Greenhouse-Geisser",
+    "answer": "Rejeita a hipótese nula quando ela é de fato verdadeira (falso positivo)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_11",
+    "text": "O Erro Tipo II ocorre quando o pesquisador:",
+    "options": [
+      "Rejeita a hipótese nula quando ela é de fato verdadeira",
+      "Não rejeita a hipótese nula quando ela é de fato falsa (falso negativo)",
+      "Escolhe o teste estatístico errado para o delineamento",
+      "Viola o pressuposto de normalidade sem perceber"
+    ],
+    "answer": "Não rejeita a hipótese nula quando ela é de fato falsa (falso negativo)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_12",
+    "text": "Qual a escala mínima exigida para a variável dependente em testes t e ANOVA?",
+    "options": [
+      "Nominal, pois basta categorizar os grupos",
+      "Ordinal, desde que haja pelo menos 5 categorias",
+      "Intervalar ou de razão, para que a média faça sentido",
+      "Qualquer escala serve, desde que o N seja grande"
+    ],
+    "answer": "Intervalar ou de razão, para que a média faça sentido",
     "difficulty": "medium"
   },
   {
     "id": "q_13",
-    "text": "O que representa o termo de erro (Resíduo) em uma análise de variância?",
+    "text": "Qual a alternativa não-paramétrica para o teste t de amostras independentes?",
     "options": [
-      "A variabilidade explicada pela manipulação das variáveis independentes.",
-      "A variabilidade não explicada pelo modelo, devida ao acaso ou erro de medida.",
-      "A diferença sistemática entre as médias dos grupos experimentais.",
-      "O produto da constante do modelo pelos graus de liberdade entre-grupos."
+      "Teste de Wilcoxon (signed-rank)",
+      "Teste de Mann-Whitney U",
+      "ANOVA de Friedman",
+      "Teste de Kruskal-Wallis"
     ],
-    "answer": "A variabilidade não explicada pelo modelo, devida ao acaso ou erro de medida.",
-    "difficulty": "easy"
+    "answer": "Teste de Mann-Whitney U",
+    "difficulty": "medium"
   },
   {
     "id": "q_14",
-    "text": "Qual Post-Hoc é o mais indicado quando os pressupostos de homogeneidade são atendidos e o N é igual?",
+    "text": "Qual a alternativa não-paramétrica para o teste t pareado?",
     "options": [
-      "Games-Howell",
-      "Tukey HSD",
-      "Dunnett",
-      "F de Welch"
+      "Teste de Mann-Whitney U",
+      "Teste de Wilcoxon (signed-rank)",
+      "Teste de Kruskal-Wallis",
+      "Correlação de Spearman"
     ],
-    "answer": "Tukey HSD",
-    "difficulty": "easy"
+    "answer": "Teste de Wilcoxon (signed-rank)",
+    "difficulty": "medium"
   },
   {
     "id": "q_15",
-    "text": "Para uma tabela Qui-quadrado de 2x3, como são calculados os Graus de Liberdade?",
+    "text": "Por que realizar múltiplos testes t para comparar três ou mais médias é problemático?",
     "options": [
-      "gl = 6",
-      "gl = 2",
-      "gl = 5",
-      "gl = 3"
+      "Porque o teste t não funciona com mais de 30 observações por grupo",
+      "Porque cada comparação adicional infla a taxa de Erro Tipo I acumulada",
+      "Porque o poder estatístico aumenta artificialmente a cada teste",
+      "Porque os graus de liberdade se tornam negativos"
     ],
-    "answer": "gl = 2",
+    "answer": "Porque cada comparação adicional infla a taxa de Erro Tipo I acumulada",
     "difficulty": "medium"
   },
   {
     "id": "q_16",
-    "text": "Na ANOVA Fatorial, se as linhas em um gráfico de médias se cruzam, o que isso sugere?",
+    "text": "O conceito de 'graus de liberdade' refere-se a:",
     "options": [
-      "Ausência de efeitos principais significativos no modelo.",
-      "Presença de uma provável interação entre as variáveis independentes.",
-      "Confirmação total do pressuposto de homocedasticidade dos erros.",
-      "Necessidade imediata de trocar o teste F pela alternativa de Friedman."
+      "O número total de participantes no estudo",
+      "O número de observações livres para variar após fixada uma restrição (como a média)",
+      "A permissão do comitê de ética para realizar o experimento",
+      "O número de variáveis independentes no modelo"
     ],
-    "answer": "Presença de uma provável interação entre as variáveis independentes.",
-    "difficulty": "medium"
+    "answer": "O número de observações livres para variar após fixada uma restrição (como a média)",
+    "difficulty": "easy"
   },
   {
     "id": "q_17",
-    "text": "Em um teste t para amostras independentes, qual gl se aplica para grupos de n=10 e n=12?",
+    "text": "Ao estimar a média de uma amostra de tamanho N, quantos graus de liberdade restam?",
     "options": [
-      "gl = 22",
-      "gl = 20",
-      "gl = 21",
-      "gl = 11"
+      "N",
+      "N − 1",
+      "N − 2",
+      "N + 1"
     ],
-    "answer": "gl = 20",
-    "difficulty": "medium"
+    "answer": "N − 1",
+    "difficulty": "easy"
   },
   {
     "id": "q_18",
-    "text": "O pressuposto de Homocedasticidade refere-se a qual característica dos dados?",
+    "text": "O que acontece com o valor crítico da distribuição t conforme os gl aumentam?",
     "options": [
-      "À independência mútua entre os erros de cada observação.",
-      "À constância da variância dos resíduos em todos os níveis do modelo.",
-      "À distribuição normal das variáveis independentes categóricas.",
-      "À similaridade entre as médias das amostras intra-sujeitos."
+      "Aumenta, exigindo valores de t maiores para significância",
+      "Diminui, aproximando-se dos valores da distribuição normal (z)",
+      "Permanece constante independentemente do tamanho amostral",
+      "Oscila de forma imprevisível entre valores positivos e negativos"
     ],
-    "answer": "À constância da variância dos resíduos em todos os níveis do modelo.",
-    "difficulty": "hard"
+    "answer": "Diminui, aproximando-se dos valores da distribuição normal (z)",
+    "difficulty": "medium"
   },
   {
     "id": "q_19",
-    "text": "Qual a finalidade de realizar uma análise de 'Simple Effects' após uma ANOVA Fatorial?",
+    "text": "Em uma ANOVA de um fator com k = 4 grupos e N = 60 participantes totais, quais são os gl Entre e gl Dentro?",
     "options": [
-      "Verificar se o tamanho da amostra é suficiente para o poder estatístico.",
-      "Decompor uma interação significativa testando um fator em cada nível do outro.",
-      "Substituir o teste de Levene quando as variâncias são heterogêneas.",
-      "Calcular o intercepto do modelo linear generalizado em variáveis dummy."
+      "Entre = 4, Dentro = 60",
+      "Entre = 3, Dentro = 56",
+      "Entre = 3, Dentro = 57",
+      "Entre = 59, Dentro = 4"
     ],
-    "answer": "Decompor uma interação significativa testando um fator em cada nível do outro.",
+    "answer": "Entre = 3, Dentro = 56",
     "difficulty": "hard"
   },
   {
     "id": "q_20",
-    "text": "O que representa o 'Intercepto' em uma tabela de efeitos entre-sujeitos do SPSS?",
+    "text": "Para um teste qui-quadrado com tabela 3 × 4, qual o gl?",
     "options": [
-      "A diferença exata entre a maior e a menor média do grupo.",
-      "O valor da variável dependente quando as independentes são zero.",
-      "O erro padrão da média calculado para a amostra populacional.",
-      "A significância do teste de esfericidade para medidas repetidas."
+      "12",
+      "7",
+      "6",
+      "11"
     ],
-    "answer": "O valor da variável dependente quando as independentes são zero.",
-    "difficulty": "medium"
+    "answer": "6",
+    "difficulty": "hard"
   },
   {
     "id": "q_21",
-    "text": "Qual estatística de MANOVA é mais recomendada quando os tamanhos dos grupos são desiguais?",
+    "text": "Na regressão linear múltipla com N = 50 e 3 preditores, qual o gl do resíduo?",
     "options": [
-      "Wilks' Lambda",
-      "Pillai's Trace",
-      "Hotelling's Trace",
-      "Roy's Largest Root"
+      "49",
+      "47",
+      "46",
+      "50"
     ],
-    "answer": "Pillai's Trace",
+    "answer": "46",
     "difficulty": "hard"
   },
   {
     "id": "q_22",
-    "text": "Qual a consequência de ignorar a violação de esfericidade na ANOVA de Medidas Repetidas?",
+    "text": "Se o gl (Modelo) = 2 e gl (Resíduo) = 27 em uma ANOVA de um fator, qual o N total?",
     "options": [
-      "O teste F torna-se excessivamente rigoroso, gerando erros Tipo II.",
-      "Aumenta a probabilidade de rejeitar falsamente a hipótese nula (Erro Tipo I).",
-      "Os graus de liberdade do resíduo tornam-se infinitos no modelo.",
-      "A média quadrática dentro dos grupos iguala-se à variância total."
+      "27",
+      "29",
+      "30",
+      "32"
     ],
-    "answer": "Aumenta a probabilidade de rejeitar falsamente a hipótese nula (Erro Tipo I).",
+    "answer": "30",
     "difficulty": "hard"
   },
   {
     "id": "q_23",
-    "text": "Na ANOVA de um fator, o que a estatística F (Razão F) compara diretamente?",
+    "text": "Na ANOVA, a Média Quadrática (MQ) é calculada como:",
     "options": [
-      "A média de um grupo com a média de outro grupo pareado.",
-      "A variância explicada pelo modelo com a variância do erro (residual).",
-      "O desvio padrão da amostra com o desvio padrão da população.",
-      "O número de participantes com o número de níveis da variável."
+      "SQ × gl",
+      "SQ / gl",
+      "Média / Desvio Padrão",
+      "F × p"
     ],
-    "answer": "A variância explicada pelo modelo com a variância do erro (residual).",
-    "difficulty": "medium"
+    "answer": "SQ / gl",
+    "difficulty": "easy"
   },
   {
     "id": "q_24",
-    "text": "O que são Contrastes Planejados (ou a priori)?",
+    "text": "Em um delineamento fatorial 2 × 3, qual o gl da interação?",
     "options": [
-      "Testes realizados para explorar todas as diferenças possíveis após o teste F.",
-      "Comparações específicas baseadas em hipóteses teóricas antes da coleta.",
-      "Procedimentos para corrigir a esfericidade em amostras independentes.",
-      "Ajustes manuais no p-valor para compensar a falta de normalidade."
+      "6",
+      "5",
+      "2",
+      "3"
     ],
-    "answer": "Comparações específicas baseadas em hipóteses teóricas antes da coleta.",
-    "difficulty": "medium"
+    "answer": "2",
+    "difficulty": "hard"
   },
   {
     "id": "q_25",
-    "text": "Segundo Odin Dinho, qual o erro de 'ThorMento' ao sugerir vários testes t independentes?",
+    "text": "Se três valores devem ter média fixa igual a 10 (soma = 30), quantos valores são livres para variar?",
     "options": [
-      "Aumentar o tempo de processamento manual dos dados brutos.",
-      "Inflar o Familywise Error Rate, perdendo o controle sobre o falso-positivo.",
-      "Violar a pressuposição de que o somatório dos resíduos deve ser zero.",
-      "Reduzir o valor da estatística F para níveis abaixo da unidade crítica."
+      "3",
+      "1",
+      "2",
+      "0"
     ],
-    "answer": "Inflar o Familywise Error Rate, perdendo o controle sobre o falso-positivo.",
+    "answer": "2",
     "difficulty": "medium"
   },
   {
     "id": "q_26",
-    "text": "Em um modelo ANCOVA, o que ocorre com o poder estatístico se a covariável não for relacionada à dependente?",
+    "text": "A ANOVA compara médias de 3 ou mais grupos usando qual estratégia?",
     "options": [
-      "O poder estatístico aumenta devido ao controle do erro sistemático.",
-      "O poder estatístico diminui, pois perde-se graus de liberdade inutilmente.",
-      "O poder permanece inalterado, pois a ANCOVA ignora a correlação nula.",
-      "A esfericidade do modelo é automaticamente confirmada pelo software."
+      "Compara cada par de médias com testes t separados",
+      "Compara a variância explicada pelo modelo com a variância do erro via razão F",
+      "Calcula a correlação entre todos os grupos simultaneamente",
+      "Testa se as medianas são iguais usando ranqueamento"
     ],
-    "answer": "O poder estatístico diminui, pois perde-se graus de liberdade inutilmente.",
-    "difficulty": "hard"
+    "answer": "Compara a variância explicada pelo modelo com a variância do erro via razão F",
+    "difficulty": "easy"
   },
   {
     "id": "q_27",
-    "text": "Qual a alternativa não-paramétrica para a ANOVA independente de um fator?",
+    "text": "A estatística F na ANOVA é uma razão entre:",
     "options": [
-      "Friedman",
-      "Kruskal-Wallis",
-      "Mann-Whitney",
-      "Wilcoxon"
+      "Média do grupo / Média total",
+      "Variância do Modelo (MQM) / Variância do Erro (MQR)",
+      "Alfa / Beta",
+      "Número de grupos / Número de participantes"
     ],
-    "answer": "Kruskal-Wallis",
-    "difficulty": "medium"
+    "answer": "Variância do Modelo (MQM) / Variância do Erro (MQR)",
+    "difficulty": "easy"
   },
   {
     "id": "q_28",
-    "text": "Na ANOVA, a Soma dos Quadrados Total (SST) é a soma de quais componentes?",
+    "text": "Dizer que a ANOVA é um teste 'omnibus' significa que ela:",
     "options": [
-      "Média Quadrática Entre + Média Quadrática Dentro",
-      "Soma de Quadrados do Modelo (SSM) + Soma de Quadrados Residual (SSR)",
-      "Graus de Liberdade + Valor de p-significância",
-      "Tamanho de Efeito + Razão F de Fisher"
+      "Compara todos os pares de médias individualmente com correção automática",
+      "Indica que existe diferença em algum lugar, mas não especifica entre quais grupos",
+      "Funciona apenas para delineamentos completamente balanceados",
+      "É robusta contra qualquer violação de pressupostos"
     ],
-    "answer": "Soma de Quadrados do Modelo (SSM) + Soma de Quadrados Residual (SSR)",
-    "difficulty": "medium"
+    "answer": "Indica que existe diferença em algum lugar, mas não especifica entre quais grupos",
+    "difficulty": "easy"
   },
   {
     "id": "q_29",
-    "text": "Em qual situação é apropriado utilizar a estatística Roy's Largest Root na MANOVA?",
+    "text": "Na decomposição da variância total (SST), os componentes são:",
     "options": [
-      "Quando os pressupostos de normalidade multivariada são severamente violados.",
-      "Quando se espera que a diferença entre grupos ocorra em apenas uma dimensão.",
-      "Sempre que os grupos possuírem tamanhos de amostra radicalmente desiguais.",
-      "Como um teste omnibus preliminar antes de verificar o Lambda de Wilks."
+      "SSM (Modelo) + SSR (Resíduo)",
+      "SSM (Modelo) × SSR (Resíduo)",
+      "MQM + MQR",
+      "F + p"
     ],
-    "answer": "Quando se espera que a diferença entre grupos ocorra em apenas uma dimensão.",
-    "difficulty": "hard"
+    "answer": "SSM (Modelo) + SSR (Resíduo)",
+    "difficulty": "easy"
   },
   {
     "id": "q_30",
-    "text": "O que significa dizer que um contraste é Ortogonal?",
+    "text": "O que indica um valor de F < 1 na ANOVA?",
     "options": [
-      "Que os pesos atribuídos aos grupos somam um valor positivo.",
-      "Que os contrastes são independentes e não testam a mesma variância.",
-      "Que as médias dos grupos comparados são numericamente opostas.",
-      "Que o gráfico de interação apresenta apenas linhas paralelas."
+      "Um efeito experimental muito forte e significativo",
+      "Que a variação entre grupos é menor que a variação ao acaso dentro dos grupos",
+      "Que os graus de liberdade foram calculados com erro",
+      "Que a homogeneidade de variâncias foi violada"
     ],
-    "answer": "Que os contrastes são independentes e não testam a mesma variância.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q_31",
-    "text": "Qual o denominador da razão F na ANOVA de um fator?",
-    "options": [
-      "Média Quadrática do Modelo",
-      "Média Quadrática Residual (Erro)",
-      "Soma dos Quadrados Entre Grupos",
-      "Desvio Padrão da Média Geral"
-    ],
-    "answer": "Média Quadrática Residual (Erro)",
+    "answer": "Que a variação entre grupos é menor que a variação ao acaso dentro dos grupos",
     "difficulty": "medium"
   },
   {
-    "id": "q_32",
-    "text": "Na ANOVA de Medidas Repetidas, como é calculado o gl Residual?",
+    "id": "q_31",
+    "text": "Após uma ANOVA significativa com 4 clãs, o pesquisador precisa saber QUAIS clãs diferem. Qual ferramenta usar?",
     "options": [
-      "N - 1",
-      "(n - 1) * (k - 1)",
-      "k - 1",
-      "N - k"
+      "Repetir a ANOVA com pares de grupos isolados",
+      "Testes Post-Hoc (ex: Tukey) ou Contrastes Planejados",
+      "Teste de Levene para cada par de grupos",
+      "Correlação de Pearson entre os grupos"
     ],
-    "answer": "(n - 1) * (k - 1)",
-    "difficulty": "hard"
+    "answer": "Testes Post-Hoc (ex: Tukey) ou Contrastes Planejados",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_32",
+    "text": "Qual Post-Hoc é indicado quando as variâncias são homogêneas e os grupos têm tamanhos iguais?",
+    "options": [
+      "Games-Howell",
+      "Gabriel",
+      "Tukey HSD",
+      "Welch"
+    ],
+    "answer": "Tukey HSD",
+    "difficulty": "medium"
   },
   {
     "id": "q_33",
-    "text": "Qual o valor do p-valor no teste de Mauchly para indicar que a esfericidade foi atendida?",
+    "text": "Qual Post-Hoc é recomendado quando o Teste de Levene é significativo (variâncias desiguais)?",
     "options": [
-      "p < 0,05",
-      "p > 0,05",
-      "p = 0,00",
-      "p < 0,01"
+      "Tukey HSD",
+      "Bonferroni",
+      "Games-Howell",
+      "REGWQ"
     ],
-    "answer": "p > 0,05",
+    "answer": "Games-Howell",
     "difficulty": "medium"
   },
   {
     "id": "q_34",
-    "text": "O que reportamos entre vírgulas em F(2, 24) no padrão APA?",
+    "text": "Se o pesquisador tem hipótese teórica prévia de que o Clã Lobo supera os demais clãs combinados, qual ferramenta é mais adequada que Post-Hocs?",
     "options": [
-      "Nível de confiança e nível de alfa.",
-      "Graus de liberdade do modelo e do resíduo.",
-      "Média do grupo A e média do grupo B.",
-      "Número de fatores e número de covariáveis."
+      "Teste de Levene direcionado",
+      "Contrastes Planejados com pesos definidos a priori",
+      "ANOVA de Friedman com correção de Bonferroni",
+      "Regressão logística multinomial"
     ],
-    "answer": "Graus de liberdade do modelo e do resíduo.",
+    "answer": "Contrastes Planejados com pesos definidos a priori",
     "difficulty": "medium"
   },
   {
     "id": "q_35",
-    "text": "Na ANCOVA, se a interação entre o Fator e a Covariável for significativa, o que concluímos?",
+    "text": "Qual regra inviolável se aplica aos pesos de um contraste ortogonal?",
     "options": [
-      "Que o modelo está purificado e pronto para o relato final.",
-      "Que o pressuposto de inclinações homogêneas foi violado.",
-      "Que a normalidade dos resíduos de Gauss foi confirmada.",
-      "Que a covariável é um excelente preditor para todos os grupos."
+      "A soma dos pesos deve ser sempre igual a 1",
+      "A soma dos pesos deve ser sempre igual a zero",
+      "Todos os pesos devem ser positivos e inteiros",
+      "Os pesos devem ser iguais à média harmônica dos grupos"
     ],
-    "answer": "Que o pressuposto de inclinações homogêneas foi violado.",
-    "difficulty": "hard"
+    "answer": "A soma dos pesos deve ser sempre igual a zero",
+    "difficulty": "medium"
   },
   {
     "id": "q_36",
-    "text": "Qual teste Post-Hoc é usado para comparar grupos com um grupo controle específico?",
+    "text": "Por que ω² (ômega ao quadrado) é preferido a η² (eta ao quadrado) para reportar tamanho de efeito na ANOVA?",
     "options": [
-      "Tukey",
-      "Dunnett",
-      "Bonferroni",
-      "Scheffé"
+      "Porque ω² é sempre maior que η², facilitando a publicação",
+      "Porque η² superestima o efeito populacional, enquanto ω² corrige esse viés",
+      "Porque ω² não depende dos graus de liberdade do modelo",
+      "Porque η² só funciona para delineamentos com 2 grupos"
     ],
-    "answer": "Dunnett",
+    "answer": "Porque η² superestima o efeito populacional, enquanto ω² corrige esse viés",
     "difficulty": "hard"
   },
   {
     "id": "q_37",
-    "text": "Como calculamos a Média Quadrática (MQ)?",
+    "text": "Como se reporta uma ANOVA no padrão APA?",
     "options": [
-      "SQ * gl",
-      "SQ / gl",
-      "Raiz quadrada de SQ",
-      "SQ / N"
+      "Apenas 'A ANOVA foi significativa' com o p-valor",
+      "F(gl modelo, gl resíduo) = valor, p = valor, com tamanho de efeito (ω² ou η²)",
+      "Somente o valor de F e os graus de liberdade do modelo",
+      "O valor de p e a decisão sobre H₀, sem estatísticas descritivas"
     ],
-    "answer": "SQ / gl",
+    "answer": "F(gl modelo, gl resíduo) = valor, p = valor, com tamanho de efeito (ω² ou η²)",
     "difficulty": "medium"
   },
   {
     "id": "q_38",
-    "text": "O que o teste de Shapiro-Wilk avalia?",
+    "text": "O que caracteriza uma ANOVA Fatorial?",
     "options": [
-      "Esfericidade",
-      "Normalidade da distribuição",
-      "Homocedasticidade",
-      "Multicolinearidade"
+      "Ter uma única variável independente com múltiplos níveis",
+      "Ter duas ou mais variáveis independentes (fatores) no mesmo modelo",
+      "Usar exclusivamente medidas repetidas",
+      "Substituir o teste t quando N > 100"
     ],
-    "answer": "Normalidade da distribuição",
+    "answer": "Ter duas ou mais variáveis independentes (fatores) no mesmo modelo",
     "difficulty": "easy"
   },
   {
     "id": "q_39",
-    "text": "Qual medida de dispersão o Mestre Odin chama de 'migalhas do bolo'?",
+    "text": "Em uma ANOVA Fatorial, o que é um 'Efeito Principal'?",
     "options": [
-      "SSM (Modelo)",
-      "SSR (Resíduos)",
-      "SST (Total)",
-      "MQ (Média Quadrática)"
+      "A interação entre todos os fatores do modelo",
+      "O efeito de uma variável independente isolada, colapsando os níveis das demais",
+      "A soma de todos os efeitos significativos do modelo",
+      "O maior valor de F encontrado na tabela de resultados"
     ],
-    "answer": "SSR (Resíduos)",
-    "difficulty": "easy"
+    "answer": "O efeito de uma variável independente isolada, colapsando os níveis das demais",
+    "difficulty": "medium"
   },
   {
     "id": "q_40",
-    "text": "No Qui-quadrado, o que fixamos para calcular os gl?",
+    "text": "Em um gráfico de interação de uma ANOVA Fatorial, linhas que se cruzam indicam:",
     "options": [
-      "As médias dos grupos.",
-      "Os totais marginais das linhas e colunas.",
-      "O desvio padrão da amostra total.",
-      "A constante de regressão múltipla."
+      "Ausência de interação — os fatores operam independentemente",
+      "Presença de interação — o efeito de um fator depende do nível do outro",
+      "Violação do pressuposto de homocedasticidade",
+      "Que os efeitos principais são ambos não-significativos"
     ],
-    "answer": "Os totais marginais das linhas e colunas.",
-    "difficulty": "hard"
+    "answer": "Presença de interação — o efeito de um fator depende do nível do outro",
+    "difficulty": "medium"
   },
   {
     "id": "q_41",
-    "text": "Qual a alternativa não-paramétrica para o teste t pareado?",
+    "text": "Na ANOVA Fatorial, linhas paralelas no gráfico de interação indicam:",
     "options": [
-      "Mann-Whitney",
-      "Wilcoxon",
-      "Kruskal-Wallis",
-      "Friedman"
+      "Interação significativa entre os fatores",
+      "Ausência de interação — os fatores operam de forma aditiva e independente",
+      "Que o pressuposto de esfericidade foi violado",
+      "Que os efeitos principais são necessariamente significativos"
     ],
-    "answer": "Wilcoxon",
+    "answer": "Ausência de interação — os fatores operam de forma aditiva e independente",
     "difficulty": "medium"
   },
   {
     "id": "q_42",
-    "text": "O que acontece com a distribuição t quando gl é igual a 1?",
+    "text": "Em uma ANOVA Fatorial 2 × 2, quantos efeitos são testados no total?",
     "options": [
-      "Ela se iguala à curva normal.",
-      "Ela apresenta caudas muito pesadas e alta incerteza.",
-      "Ela torna-se uma distribuição bimodal assimétrica.",
-      "Ela é descartada em favor do teste Z de Gauss."
+      "2 (um por fator)",
+      "3 (dois efeitos principais + uma interação)",
+      "4 (dois efeitos principais + duas interações)",
+      "1 (apenas o efeito global)"
     ],
-    "answer": "Ela apresenta caudas muito pesadas e alta incerteza.",
+    "answer": "3 (dois efeitos principais + uma interação)",
     "difficulty": "medium"
   },
   {
     "id": "q_43",
-    "text": "Qual métrica de tamanho de efeito é considerada enviesada por superestimar o efeito na amostra?",
+    "text": "Na decomposição da variância de uma ANOVA Fatorial com fatores A e B, SST se decompõe em:",
     "options": [
-      "Ômega ao quadrado",
-      "Eta ao quadrado",
-      "Estatística F",
-      "p-valor"
+      "SSA + SSB + SSR",
+      "SSA + SSB + SSA×B + SSR",
+      "SSA × SSB + SSR",
+      "SSM + gl"
     ],
-    "answer": "Eta ao quadrado",
-    "difficulty": "medium"
+    "answer": "SSA + SSB + SSA×B + SSR",
+    "difficulty": "hard"
   },
   {
     "id": "q_44",
-    "text": "Na ANOVA Fatorial 2x2, quantos termos de interação existem?",
+    "text": "Por que é fundamental interpretar a interação ANTES dos efeitos principais na ANOVA Fatorial?",
     "options": [
-      "2 termos",
-      "1 termo",
-      "4 termos",
-      "Zero termos"
+      "Porque a interação sempre tem mais graus de liberdade que os efeitos principais",
+      "Porque uma interação significativa altera o significado dos efeitos principais, tornando-os potencialmente enganosos",
+      "Porque os efeitos principais só existem na ausência de interação",
+      "Porque o software calcula a interação primeiro e os principais depois"
     ],
-    "answer": "1 termo",
-    "difficulty": "medium"
+    "answer": "Porque uma interação significativa altera o significado dos efeitos principais, tornando-os potencialmente enganosos",
+    "difficulty": "hard"
   },
   {
     "id": "q_45",
-    "text": "Na ANOVA Mista, o Teste de Levene avalia o quê?",
+    "text": "O que é a taxa de erro familywise e por que ela importa na ANOVA Fatorial?",
     "options": [
-      "A esfericidade das medidas repetidas.",
-      "A homogeneidade de variância entre os grupos.",
-      "A normalidade dos resíduos do tempo.",
-      "A autocorrelação de Durbin-Watson."
+      "É a probabilidade de cometer pelo menos um Erro Tipo I ao fazer múltiplas comparações",
+      "É a taxa de erro específica de cada família de participantes",
+      "É o inverso do poder estatístico do teste omnibus",
+      "É a variância compartilhada entre dois fatores"
     ],
-    "answer": "A homogeneidade de variância entre os grupos.",
+    "answer": "É a probabilidade de cometer pelo menos um Erro Tipo I ao fazer múltiplas comparações",
     "difficulty": "medium"
   },
   {
     "id": "q_46",
-    "text": "Qual a soma dos pesos em um contraste estatisticamente válido?",
+    "text": "Quando a interação é significativa na ANOVA Fatorial, qual análise complementar é indicada?",
     "options": [
-      "Um",
-      "Zero",
-      "Número de grupos",
-      "Valor de alfa"
+      "Ignorar a interação e reportar apenas os efeitos principais",
+      "Realizar análises de efeitos simples (simple effects) para entender o padrão",
+      "Repetir a ANOVA sem um dos fatores",
+      "Transformar os dados em escala logarítmica"
     ],
-    "answer": "Zero",
-    "difficulty": "easy"
+    "answer": "Realizar análises de efeitos simples (simple effects) para entender o padrão",
+    "difficulty": "hard"
   },
   {
     "id": "q_47",
-    "text": "Como o Mestre Odin descreve a inferência estatística verdadeira?",
+    "text": "Em uma ANOVA Fatorial 3 × 2, qual o gl da interação A × B?",
     "options": [
-      "Apertar botões no software rapidamente.",
-      "Desenhar a estrutura justa que revela a verdade.",
-      "Gerar um p-valor menor que 0,05 a qualquer custo.",
-      "Seguir a força bruta sugerida por ThorMento."
+      "6",
+      "5",
+      "2",
+      "3"
     ],
-    "answer": "Desenhar a estrutura justa que revela a verdade.",
-    "difficulty": "easy"
+    "answer": "2",
+    "difficulty": "hard"
   },
   {
     "id": "q_48",
-    "text": "O delineamento intra-sujeito é o mesmo que:",
+    "text": "A principal vantagem do delineamento de Medidas Repetidas é:",
     "options": [
-      "Amostras independentes",
-      "Medidas repetidas",
-      "ANCOVA univariada",
-      "ANOVA Fatorial pura"
+      "Eliminar completamente o erro residual do modelo",
+      "Exigir menos participantes totais, pois cada sujeito serve como seu próprio controle",
+      "Dispensar os pressupostos de normalidade e homocedasticidade",
+      "Permitir o uso de variáveis dependentes nominais"
     ],
-    "answer": "Medidas repetidas",
+    "answer": "Exigir menos participantes totais, pois cada sujeito serve como seu próprio controle",
     "difficulty": "easy"
   },
   {
     "id": "q_49",
-    "text": "Qual é o 'termômetro do experimento' na ANOVA?",
+    "text": "O que acontece com a variância residual (SSR) na ANOVA de Medidas Repetidas após extrair as diferenças individuais?",
     "options": [
-      "P-valor",
-      "Estatística F",
-      "Média geral",
-      "Tamanho de efeito"
+      "Aumenta, dificultando a detecção de efeitos significativos",
+      "Diminui, tornando o denominador de F menor e o teste mais sensível",
+      "Permanece inalterada em relação à ANOVA entre-sujeitos",
+      "É eliminada completamente, resultando em F infinito"
     ],
-    "answer": "Estatística F",
-    "difficulty": "easy"
+    "answer": "Diminui, tornando o denominador de F menor e o teste mais sensível",
+    "difficulty": "hard"
   },
   {
     "id": "q_50",
-    "text": "Em uma ANOVA Independente, gl total é igual a:",
+    "text": "O que é o pressuposto de esfericidade na ANOVA de Medidas Repetidas?",
     "options": [
-      "N - k",
-      "N - 1",
-      "k - 1",
-      "N + k"
+      "Que os dados devem ter distribuição esférica multivariada",
+      "Que as variâncias das diferenças entre todos os pares de condições devem ser iguais",
+      "Que cada condição deve ter exatamente o mesmo número de observações",
+      "Que a correlação entre condições adjacentes deve ser igual a zero"
     ],
-    "answer": "N - 1",
+    "answer": "Que as variâncias das diferenças entre todos os pares de condições devem ser iguais",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_51",
+    "text": "Qual teste avalia formalmente se o pressuposto de esfericidade foi atendido?",
+    "options": [
+      "Teste de Levene",
+      "Teste de Shapiro-Wilk",
+      "Teste de Mauchly",
+      "Teste de Box"
+    ],
+    "answer": "Teste de Mauchly",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_52",
+    "text": "Um Teste de Mauchly com p = 0,02 indica que:",
+    "options": [
+      "A esfericidade foi confirmada e nenhuma correção é necessária",
+      "A esfericidade foi violada e uma correção dos gl é necessária",
+      "A normalidade multivariada foi rejeitada",
+      "As variâncias entre grupos são homogêneas"
+    ],
+    "answer": "A esfericidade foi violada e uma correção dos gl é necessária",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_53",
+    "text": "Para que servem as correções de Greenhouse-Geisser e Huynh-Feldt?",
+    "options": [
+      "Para transformar dados não-normais em normais",
+      "Para ajustar os gl quando a esfericidade é violada, controlando o Erro Tipo I",
+      "Para calcular o tamanho de efeito corrigido em medidas repetidas",
+      "Para estimar a correlação intraclasse entre as condições"
+    ],
+    "answer": "Para ajustar os gl quando a esfericidade é violada, controlando o Erro Tipo I",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_54",
+    "text": "A partir de quantas condições experimentais a esfericidade se torna uma preocupação relevante?",
+    "options": [
+      "A partir de 2 condições",
+      "A partir de 3 ou mais condições",
+      "Apenas com 5 ou mais condições",
+      "A esfericidade importa em qualquer número de condições"
+    ],
+    "answer": "A partir de 3 ou mais condições",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_55",
+    "text": "Qual é a alternativa não-paramétrica para a ANOVA de Medidas Repetidas?",
+    "options": [
+      "Teste de Kruskal-Wallis",
+      "Teste de Mann-Whitney",
+      "ANOVA de Friedman",
+      "Teste de Levene"
+    ],
+    "answer": "ANOVA de Friedman",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_56",
+    "text": "Na ANOVA de Medidas Repetidas com 4 condições e 30 sujeitos, qual o gl do fator intra-sujeitos?",
+    "options": [
+      "4",
+      "3",
+      "29",
+      "119"
+    ],
+    "answer": "3",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_57",
+    "text": "Em um estudo que mede a resistência de guerreiros em 4 estações (Primavera, Verão, Outono, Inverno), qual delineamento é mais eficiente?",
+    "options": [
+      "ANOVA entre-sujeitos com 4 grupos independentes de guerreiros",
+      "ANOVA de Medidas Repetidas com os mesmos guerreiros em todas as estações",
+      "Quatro testes t independentes, um para cada par de estações",
+      "Correlação de Pearson entre estações consecutivas"
+    ],
+    "answer": "ANOVA de Medidas Repetidas com os mesmos guerreiros em todas as estações",
     "difficulty": "easy"
+  },
+  {
+    "id": "q_58",
+    "text": "A ANOVA Mista (Split-Plot) combina:",
+    "options": [
+      "Dois fatores entre-sujeitos no mesmo modelo",
+      "Um fator entre-sujeitos e um fator intra-sujeitos no mesmo modelo",
+      "Variáveis dependentes categóricas e contínuas simultaneamente",
+      "ANOVA e regressão em uma única análise"
+    ],
+    "answer": "Um fator entre-sujeitos e um fator intra-sujeitos no mesmo modelo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_59",
+    "text": "Em uma ANOVA Mista 2 (Clã: Lobo vs Corvo) × 3 (Tempo: Pré, Durante, Pós), qual efeito testa se a mudança ao longo do tempo difere entre clãs?",
+    "options": [
+      "Efeito principal de Clã",
+      "Efeito principal de Tempo",
+      "Interação Clã × Tempo",
+      "O intercepto do modelo"
+    ],
+    "answer": "Interação Clã × Tempo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_60",
+    "text": "Na ANOVA Mista, o pressuposto de esfericidade se aplica a qual fator?",
+    "options": [
+      "Ao fator entre-sujeitos",
+      "Ao fator intra-sujeitos (quando tem 3+ níveis)",
+      "A ambos os fatores igualmente",
+      "Apenas à interação"
+    ],
+    "answer": "Ao fator intra-sujeitos (quando tem 3+ níveis)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_61",
+    "text": "Se a interação é significativa na ANOVA Mista, como interpretar os efeitos principais?",
+    "options": [
+      "Os efeitos principais devem ser interpretados normalmente, pois não dependem da interação",
+      "Os efeitos principais devem ser interpretados com cautela, pois a interação modifica seu significado",
+      "Os efeitos principais devem ser descartados e apenas a interação reportada",
+      "Os efeitos principais se tornam automaticamente não-significativos"
+    ],
+    "answer": "Os efeitos principais devem ser interpretados com cautela, pois a interação modifica seu significado",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_62",
+    "text": "Qual é a principal pergunta de pesquisa que a ANOVA Mista responde e que a ANOVA simples não consegue?",
+    "options": [
+      "Se a média geral é diferente de zero",
+      "Se a variância é homogênea entre grupos",
+      "Se a trajetória de mudança ao longo do tempo difere entre grupos distintos",
+      "Se os resíduos seguem distribuição normal"
+    ],
+    "answer": "Se a trajetória de mudança ao longo do tempo difere entre grupos distintos",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_63",
+    "text": "Qual é a função principal de uma covariável na ANCOVA?",
+    "options": [
+      "Substituir a variável independente categórica no modelo",
+      "Controlar estatisticamente uma variável contínua que influencia a VD, reduzindo o erro residual",
+      "Eliminar a necessidade de randomização no delineamento",
+      "Transformar a VD em escala logarítmica"
+    ],
+    "answer": "Controlar estatisticamente uma variável contínua que influencia a VD, reduzindo o erro residual",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_64",
+    "text": "A ANCOVA pode ser vista como uma fusão de quais técnicas?",
+    "options": [
+      "Teste t + Qui-quadrado",
+      "ANOVA + Regressão Linear",
+      "MANOVA + Teste de Levene",
+      "Correlação + Análise Discriminante"
+    ],
+    "answer": "ANOVA + Regressão Linear",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_65",
+    "text": "Além dos pressupostos da ANOVA, qual pressuposto específico a ANCOVA exige?",
+    "options": [
+      "Esfericidade das diferenças entre condições",
+      "Homogeneidade das inclinações de regressão entre os grupos",
+      "Normalidade bivariada entre as duas VDs",
+      "Independência temporal das observações repetidas"
+    ],
+    "answer": "Homogeneidade das inclinações de regressão entre os grupos",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_66",
+    "text": "O que significa 'homogeneidade das inclinações de regressão' na ANCOVA?",
+    "options": [
+      "Que a média da covariável deve ser igual em todos os grupos",
+      "Que a relação entre a covariável e a VD deve ser similar em todos os grupos",
+      "Que a covariável deve ter distribuição normal em cada grupo",
+      "Que os resíduos devem ter a mesma magnitude em todos os grupos"
+    ],
+    "answer": "Que a relação entre a covariável e a VD deve ser similar em todos os grupos",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_67",
+    "text": "Odin quer comparar a sabedoria de guerreiros de 3 regiões, controlando por anos de treinamento. Qual análise é indicada?",
+    "options": [
+      "ANOVA de um fator com Região como fator",
+      "ANCOVA com Região como fator e Anos de Treinamento como covariável",
+      "Regressão linear com Anos de Treinamento como único preditor",
+      "Teste t pareado entre as regiões"
+    ],
+    "answer": "ANCOVA com Região como fator e Anos de Treinamento como covariável",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_68",
+    "text": "O que acontece se a covariável não tiver relação linear com a VD na ANCOVA?",
+    "options": [
+      "A ANCOVA ganha poder estatístico adicional",
+      "A ANCOVA perde poder — a covariável consome gl sem reduzir o erro",
+      "Os resultados se tornam automaticamente significativos",
+      "A covariável é ignorada pelo software e não afeta a análise"
+    ],
+    "answer": "A ANCOVA perde poder — a covariável consome gl sem reduzir o erro",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_69",
+    "text": "Na ANCOVA, o que são 'médias ajustadas'?",
+    "options": [
+      "As médias dos grupos após remover estatisticamente o efeito da covariável",
+      "As médias dos grupos multiplicadas pelo coeficiente de regressão",
+      "As médias dos grupos antes da inclusão de qualquer covariável",
+      "As médias das covariáveis calculadas para cada grupo"
+    ],
+    "answer": "As médias dos grupos após remover estatisticamente o efeito da covariável",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_70",
+    "text": "Qual é o risco de incluir covariáveis demais na ANCOVA?",
+    "options": [
+      "O poder estatístico aumenta exponencialmente com cada covariável",
+      "Cada covariável adicional consome gl do erro, podendo reduzir o poder e gerar multicolinearidade",
+      "As médias ajustadas se tornam idênticas em todos os grupos",
+      "O pressuposto de normalidade é automaticamente violado"
+    ],
+    "answer": "Cada covariável adicional consome gl do erro, podendo reduzir o poder e gerar multicolinearidade",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_71",
+    "text": "A principal diferença entre ANOVA e MANOVA é:",
+    "options": [
+      "A ANOVA usa a estatística F enquanto a MANOVA usa o teste t",
+      "A ANOVA analisa uma VD por vez enquanto a MANOVA analisa duas ou mais VDs simultaneamente",
+      "A MANOVA exige amostras menores que a ANOVA",
+      "A ANOVA é paramétrica enquanto a MANOVA é não-paramétrica"
+    ],
+    "answer": "A ANOVA analisa uma VD por vez enquanto a MANOVA analisa duas ou mais VDs simultaneamente",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_72",
+    "text": "Qual pressuposto específico da MANOVA é avaliado pelo Teste de Box (Box's M)?",
+    "options": [
+      "Normalidade univariada em cada grupo",
+      "Homogeneidade das matrizes de variância-covariância entre os grupos",
+      "Esfericidade das diferenças entre condições repetidas",
+      "Linearidade da relação entre as VDs"
+    ],
+    "answer": "Homogeneidade das matrizes de variância-covariância entre os grupos",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_73",
+    "text": "Qual das quatro estatísticas multivariadas é considerada a mais robusta contra violações de pressupostos?",
+    "options": [
+      "Lambda de Wilks",
+      "Traço de Hotelling-Lawley",
+      "Maior Raiz de Roy",
+      "Traço de Pillai"
+    ],
+    "answer": "Traço de Pillai",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_74",
+    "text": "Após um resultado multivariado significativo na MANOVA, qual é o procedimento de follow-up padrão?",
+    "options": [
+      "Repetir a MANOVA sem a VD menos significativa",
+      "ANOVAs univariadas para cada VD com correção de Bonferroni",
+      "Testes t pareados entre todas as VDs",
+      "Análise de Componentes Principais"
+    ],
+    "answer": "ANOVAs univariadas para cada VD com correção de Bonferroni",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_75",
+    "text": "Por que a MANOVA é preferível a rodar várias ANOVAs separadas, uma para cada VD?",
+    "options": [
+      "Porque a MANOVA exige menos participantes no total",
+      "Porque a MANOVA preserva a correlação entre as VDs e controla a taxa de Erro Tipo I global",
+      "Porque a MANOVA não exige pressupostos de normalidade",
+      "Porque os resultados são mais fáceis de interpretar"
+    ],
+    "answer": "Porque a MANOVA preserva a correlação entre as VDs e controla a taxa de Erro Tipo I global",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_76",
+    "text": "O que acontece se as VDs incluídas na MANOVA não forem teoricamente relacionadas?",
+    "options": [
+      "O poder estatístico aumenta pela diversidade das medidas",
+      "A MANOVA perde poder, pois VDs não correlacionadas diluem o sinal multivariado",
+      "O Teste de Box automaticamente se torna não-significativo",
+      "As ANOVAs de follow-up se tornam desnecessárias"
+    ],
+    "answer": "A MANOVA perde poder, pois VDs não correlacionadas diluem o sinal multivariado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_77",
+    "text": "Qual análise é considerada o follow-up ideal da MANOVA por revelar quais combinações lineares das VDs distinguem os grupos?",
+    "options": [
+      "Regressão logística multinomial",
+      "Análise Discriminante",
+      "Análise Fatorial Exploratória",
+      "Correlação canônica"
+    ],
+    "answer": "Análise Discriminante",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_78",
+    "text": "Em uma MANOVA com 3 grupos e 4 VDs, qual é o número mínimo de participantes por grupo para evitar matrizes singulares?",
+    "options": [
+      "3 participantes por grupo",
+      "Mais que 4 participantes por grupo (n > número de VDs)",
+      "Exatamente 10 por grupo, independentemente do número de VDs",
+      "Mais que 30 no total, independentemente do número de grupos"
+    ],
+    "answer": "Mais que 4 participantes por grupo (n > número de VDs)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_79",
+    "text": "A MANCOVA é a combinação de quais técnicas?",
+    "options": [
+      "ANOVA + Teste t pareado",
+      "MANOVA + ANCOVA (múltiplas VDs + covariáveis)",
+      "Regressão + Análise Discriminante",
+      "ANOVA Fatorial + Medidas Repetidas"
+    ],
+    "answer": "MANOVA + ANCOVA (múltiplas VDs + covariáveis)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_80",
+    "text": "Por que a MANCOVA é considerada mais parcimoniosa do que rodar MANOVA e ANCOVAs separadamente?",
+    "options": [
+      "Porque exige menos pressupostos que qualquer outra técnica",
+      "Porque testa múltiplas VDs e controla covariáveis em um único modelo, evitando inflação do Erro Tipo I",
+      "Porque elimina a necessidade de testes de follow-up",
+      "Porque usa menos graus de liberdade que a ANOVA simples"
+    ],
+    "answer": "Porque testa múltiplas VDs e controla covariáveis em um único modelo, evitando inflação do Erro Tipo I",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_81",
+    "text": "Após um resultado multivariado significativo na MANCOVA, qual é o follow-up adequado?",
+    "options": [
+      "ANOVAs univariadas descartando as covariáveis",
+      "ANCOVAs univariadas para cada VD, mantendo as covariáveis, com correção de Bonferroni",
+      "Testes t independentes para cada VD separadamente",
+      "Remoção das VDs não-significativas e nova MANCOVA"
+    ],
+    "answer": "ANCOVAs univariadas para cada VD, mantendo as covariáveis, com correção de Bonferroni",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_82",
+    "text": "Além dos pressupostos da MANOVA, qual pressuposto adicional a MANCOVA exige?",
+    "options": [
+      "Esfericidade para cada VD separadamente",
+      "Homogeneidade das inclinações de regressão entre os grupos para cada par covariável-VD",
+      "Que as covariáveis sejam categóricas com pelo menos 3 níveis",
+      "Que o número de VDs seja maior que o número de covariáveis"
+    ],
+    "answer": "Homogeneidade das inclinações de regressão entre os grupos para cada par covariável-VD",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_83",
+    "text": "No framework do Modelo Linear Geral (GLM), a MANCOVA representa:",
+    "options": [
+      "Um caso especial da regressão logística multinomial",
+      "O caso mais geral, com matriz Y de múltiplas VDs e matriz X com fatores categóricos + covariáveis contínuas",
+      "Uma extensão não-paramétrica da ANOVA",
+      "Um modelo exclusivo para dados longitudinais"
+    ],
+    "answer": "O caso mais geral, com matriz Y de múltiplas VDs e matriz X com fatores categóricos + covariáveis contínuas",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_84",
+    "text": "Qual a relação hierárquica correta entre as técnicas da família GLM?",
+    "options": [
+      "ANOVA → MANOVA → ANCOVA → MANCOVA",
+      "MANCOVA contém MANOVA (sem covariáveis), ANCOVA (1 VD) e ANOVA (1 VD, sem covariáveis) como casos especiais",
+      "Cada técnica é independente e não há hierarquia",
+      "ANCOVA é mais geral que MANCOVA"
+    ],
+    "answer": "MANCOVA contém MANOVA (sem covariáveis), ANCOVA (1 VD) e ANOVA (1 VD, sem covariáveis) como casos especiais",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_85",
+    "text": "Em uma MANCOVA com 3 grupos, 4 VDs e 2 covariáveis, qual cuidado é crítico quanto ao N por grupo?",
+    "options": [
+      "Ter exatamente o mesmo N em todos os grupos",
+      "Ter mais participantes por grupo do que o número de VDs + covariáveis combinados",
+      "Ter no mínimo 5 participantes no total",
+      "Ter um N múltiplo do número de grupos"
+    ],
+    "answer": "Ter mais participantes por grupo do que o número de VDs + covariáveis combinados",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_86",
+    "text": "Qual pressuposto exige que os resíduos sigam uma distribuição em forma de sino?",
+    "options": [
+      "Independência das observações",
+      "Normalidade",
+      "Homocedasticidade",
+      "Linearidade"
+    ],
+    "answer": "Normalidade",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_87",
+    "text": "O que significa 'homocedasticidade'?",
+    "options": [
+      "Que os grupos têm o mesmo tamanho amostral",
+      "Que a variância do erro é constante ao longo do modelo (entre grupos ou valores preditos)",
+      "Que as médias dos grupos são iguais",
+      "Que a distribuição é simétrica em todos os grupos"
+    ],
+    "answer": "Que a variância do erro é constante ao longo do modelo (entre grupos ou valores preditos)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_88",
+    "text": "Qual teste avalia formalmente a normalidade dos resíduos?",
+    "options": [
+      "Teste de Levene",
+      "Teste de Shapiro-Wilk",
+      "Teste de Mauchly",
+      "Teste de Box"
+    ],
+    "answer": "Teste de Shapiro-Wilk",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_89",
+    "text": "Qual teste avalia a homocedasticidade na regressão?",
+    "options": [
+      "Teste de Mauchly",
+      "Teste de Breusch-Pagan",
+      "Teste de Shapiro-Wilk",
+      "Teste de Friedman"
+    ],
+    "answer": "Teste de Breusch-Pagan",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_90",
+    "text": "O pressuposto de independência das observações é violado quando:",
+    "options": [
+      "Os resíduos têm distribuição assimétrica",
+      "As observações de um participante influenciam as de outro (ex: dados agrupados não modelados)",
+      "O tamanho da amostra é menor que 30",
+      "A variável dependente é ordinal"
+    ],
+    "answer": "As observações de um participante influenciam as de outro (ex: dados agrupados não modelados)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_91",
+    "text": "A ANOVA é considerada robusta contra violações moderadas de qual pressuposto, especialmente com grupos de tamanhos iguais?",
+    "options": [
+      "Independência das observações",
+      "Normalidade",
+      "Esfericidade",
+      "Independência temporal"
+    ],
+    "answer": "Normalidade",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_92",
+    "text": "O que representa o intercepto (constante) em uma saída de ANOVA no software?",
+    "options": [
+      "A diferença entre o maior e o menor grupo",
+      "A média geral (Grand Mean) da variável dependente",
+      "O erro padrão das estimativas",
+      "O valor de F do modelo completo"
+    ],
+    "answer": "A média geral (Grand Mean) da variável dependente",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_93",
+    "text": "O Modelo Linear Geral (GLM) revela que ANOVA e Regressão Múltipla são:",
+    "options": [
+      "Técnicas incompatíveis que medem construtos diferentes",
+      "Matematicamente equivalentes — casos especiais da mesma estrutura Y = Xβ + ε",
+      "Idênticas apenas quando as variáveis são todas contínuas",
+      "Distintas porque a ANOVA usa F e a Regressão usa t"
+    ],
+    "answer": "Matematicamente equivalentes — casos especiais da mesma estrutura Y = Xβ + ε",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_94",
+    "text": "Qual a diferença entre significância estatística e tamanho de efeito?",
+    "options": [
+      "Não há diferença — ambos medem a mesma coisa com unidades diferentes",
+      "A significância indica se o efeito é improvável sob H₀; o tamanho de efeito indica a magnitude prática da diferença",
+      "A significância é para amostras grandes; o tamanho de efeito é para amostras pequenas",
+      "O tamanho de efeito substitui o p-valor em pesquisas qualitativas"
+    ],
+    "answer": "A significância indica se o efeito é improvável sob H₀; o tamanho de efeito indica a magnitude prática da diferença",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_95",
+    "text": "Um p-valor NÃO informa diretamente:",
+    "options": [
+      "Se os dados são improváveis sob H₀",
+      "A direção da diferença entre as médias",
+      "A probabilidade de H₀ ser verdadeira",
+      "Se o teste foi conduzido corretamente"
+    ],
+    "answer": "A probabilidade de H₀ ser verdadeira",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_96",
+    "text": "É possível obter p < 0,05 com um tamanho de efeito trivial?",
+    "options": [
+      "Não — significância estatística garante relevância prática",
+      "Sim — com amostras muito grandes, diferenças triviais podem atingir significância",
+      "Apenas em delineamentos não-experimentais",
+      "Somente quando há violação dos pressupostos"
+    ],
+    "answer": "Sim — com amostras muito grandes, diferenças triviais podem atingir significância",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_97",
+    "text": "Segundo os benchmarks de Cohen, um d = 0,80 é classificado como efeito:",
+    "options": [
+      "Pequeno",
+      "Médio",
+      "Grande",
+      "Muito grande"
+    ],
+    "answer": "Grande",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q_98",
+    "text": "Por que reportar intervalos de confiança é preferível a reportar apenas o p-valor?",
+    "options": [
+      "Porque ICs são mais fáceis de calcular que p-valores",
+      "Porque ICs fornecem estimativa pontual + faixa de incerteza, informando tanto a magnitude quanto a precisão do efeito",
+      "Porque p-valores foram banidos de todas as revistas científicas",
+      "Porque ICs eliminam a possibilidade de Erro Tipo I"
+    ],
+    "answer": "Porque ICs fornecem estimativa pontual + faixa de incerteza, informando tanto a magnitude quanto a precisão do efeito",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q_99",
+    "text": "O que é a 'dança dos p-valores' descrita por Cumming?",
+    "options": [
+      "A oscilação dos p-valores entre estudos replicados, mostrando a instabilidade de depender de um único p",
+      "Uma técnica de visualização para distribuições bimodais",
+      "O ajuste do nível de significância para múltiplas comparações",
+      "A variação do p-valor conforme se adicionam covariáveis ao modelo"
+    ],
+    "answer": "A oscilação dos p-valores entre estudos replicados, mostrando a instabilidade de depender de um único p",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q_100",
+    "text": "Segundo a filosofia da MTPQI, qual abordagem deve complementar (ou até substituir) o NHST mecânico?",
+    "options": [
+      "Aumentar o nível de significância para α = 0,10 em todas as análises",
+      "O paradigma da estimação: foco em tamanhos de efeito, intervalos de confiança e meta-análise",
+      "Usar exclusivamente estatística Bayesiana com priores não-informativos",
+      "Abandonar a estatística inferencial e usar apenas descritiva"
+    ],
+    "answer": "O paradigma da estimação: foco em tamanhos de efeito, intervalos de confiança e meta-análise",
+    "difficulty": "medium"
   }
 ]
